@@ -1,0 +1,51 @@
+7.0069 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0x10ebe6a28>, name='window1', pos=[0, 0], screen=0, size=array([1280,  800]), stereo=False, units=u'norm', useFBO=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.0069 	EXP 	window1: recordFrameIntervals = False
+7.1729 	EXP 	window1: recordFrameIntervals = True
+7.3568 	EXP 	window1: recordFrameIntervals = False
+7.4226 	EXP 	Created instructions_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='instructions_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u"Yo, here's the expt.", units=u'norm', win=Window(...), wrapWidth=1)
+7.4286 	EXP 	Created fixation_txt = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='fixation_txt', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 1.,  1.,  1.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+7.4402 	EXP 	Created feedback_txt = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='feedback_txt', opacity=1.0, ori=0, pos=array([ 0. ,  0.5]), rgb=array([ 1.,  1.,  1.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+7.4465 	EXP 	Created break_txt = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='break_txt', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+7.4542 	EXP 	Created closing_txt = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='closing_txt', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u"G'bye", units=u'norm', win=Window(...), wrapWidth=1)
+7.4735 	EXP 	instructions_text: autoDraw = True
+9.1464 	DATA 	Keypress: space
+10.5868 	EXP 	Created sequence: random, trialTypes=1, nReps=100000, seed=None
+11.4088 	EXP 	New trial (rep=0, index=0): None
+11.4319 	EXP 	instructions_text: autoDraw = False
+11.4319 	EXP 	fixation_txt: autoDraw = True
+11.4319 	EXP 	feedback_txt: autoDraw = True
+17.9506 	DATA 	Keypress: space
+24.1974 	DATA 	Keypress: space
+30.4240 	DATA 	Keypress: space
+35.2878 	DATA 	Keypress: space
+40.3284 	DATA 	Keypress: space
+47.2932 	DATA 	Keypress: space
+53.4133 	DATA 	Keypress: space
+59.0685 	DATA 	Keypress: space
+64.8475 	DATA 	Keypress: space
+71.8123 	DATA 	Keypress: space
+78.3104 	DATA 	Keypress: space
+84.8440 	DATA 	Keypress: space
+89.9342 	DATA 	Keypress: space
+95.2024 	DATA 	Keypress: space
+100.9913 	DATA 	Keypress: space
+107.3260 	DATA 	Keypress: space
+115.7728 	DATA 	Keypress: space
+121.8024 	DATA 	Keypress: space
+129.5558 	DATA 	Keypress: space
+137.3892 	DATA 	Keypress: space
+142.4631 	DATA 	Keypress: space
+148.1587 	DATA 	Keypress: space
+153.6940 	DATA 	Keypress: space
+158.3374 	DATA 	Keypress: space
+163.2909 	DATA 	Keypress: space
+170.3095 	DATA 	Keypress: space
+176.9570 	DATA 	Keypress: space
+183.4839 	DATA 	Keypress: space
+189.2129 	DATA 	Keypress: space
+195.2257 	DATA 	Keypress: space
+200.9545 	DATA 	Keypress: space
+206.9172 	DATA 	Keypress: space
+210.8755 	DATA 	Keypress: space
+216.0235 	DATA 	Keypress: space
+216.6041 	DATA 	Keypress: escape
