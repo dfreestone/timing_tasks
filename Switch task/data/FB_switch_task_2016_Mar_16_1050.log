@@ -1,0 +1,981 @@
+5.7664 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0x10f4245f0>, name='window1', pos=[0, 0], screen=0, size=array([1280,  800]), stereo=False, units=u'norm', useFBO=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.7664 	EXP 	window1: recordFrameIntervals = False
+5.9323 	EXP 	window1: recordFrameIntervals = True
+6.1162 	EXP 	window1: recordFrameIntervals = False
+6.2753 	EXP 	Created instructions_txt = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='instructions_txt', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'Here be instructions, arrr.', units=u'norm', win=Window(...), wrapWidth=1)
+6.2801 	EXP 	Created trial_fixation = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='trial_fixation', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+6.2975 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x10a7d4610>: vertices = array([[-0.25,  0.25],
+       [ 0.25,  0.25],
+       [ 0.25, -0.25],
+       [-0.25, -0.25]])
+6.3024 	EXP 	Created trial_leftShape = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-3.0, fillColor=array([ 1.,  1.,  1.]), fillColorSpace='rgb', fillRGB=array([ 1.,  1.,  1.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=3, name='trial_leftShape', opacity=1.0, ori=array(0.0), pos=array([-0.5,  0. ]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+6.3031 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x10a7d4610>: vertices = array([[-0.25,  0.25],
+       [ 0.25,  0.25],
+       [ 0.25, -0.25],
+       [-0.25, -0.25]])
+6.3068 	EXP 	Created trial_rightShape = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-4.0, fillColor=array([ 1.,  1.,  1.]), fillColorSpace='rgb', fillRGB=array([ 1.,  1.,  1.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=3, name='trial_rightShape', opacity=1.0, ori=array(0.0), pos=array([ 0.5,  0. ]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+6.3168 	EXP 	Created trial_debugtxt = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='trial_debugtxt', opacity=1.0, ori=0, pos=array([ 0.  ,  0.75]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+6.3174 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x10a7d4610>: vertices = array([[-0.25,  0.25],
+       [ 0.25,  0.25],
+       [ 0.25, -0.25],
+       [-0.25, -0.25]])
+6.3209 	EXP 	Created feedback_leftShape = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-1.0, fillColor=array([ 1.,  1.,  1.]), fillColorSpace='rgb', fillRGB=array([ 1.,  1.,  1.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=3, name='feedback_leftShape', opacity=1.0, ori=array(0.0), pos=array([-0.5,  0. ]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+6.3214 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x10a7d4610>: vertices = array([[-0.25,  0.25],
+       [ 0.25,  0.25],
+       [ 0.25, -0.25],
+       [-0.25, -0.25]])
+6.3249 	EXP 	Created feedback_rightShape = Rect(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-2.0, fillColor=array([ 1.,  1.,  1.]), fillColorSpace='rgb', fillRGB=array([ 1.,  1.,  1.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=3, name='feedback_rightShape', opacity=1.0, ori=array(0.0), pos=array([ 0.5,  0. ]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+6.3310 	EXP 	Created break_txt = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='break_txt', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+6.3392 	EXP 	Created Closing_txt = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='Closing_txt', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'Later, Gator.', units=u'norm', win=Window(...), wrapWidth=1)
+6.3495 	EXP 	instructions_txt: autoDraw = True
+11.4633 	DATA 	Keypress: space
+11.6004 	EXP 	Created sequence: random, trialTypes=1, nReps=10000, seed=None
+11.6712 	EXP 	New trial (rep=0, index=0): None
+13.0259 	EXP 	Created sequence: random, trialTypes=1, nReps=100000, seed=None
+13.7398 	EXP 	New trial (rep=0, index=0): None
+13.7451 	EXP 	window1: recordFrameIntervals = False
+13.7653 	EXP 	instructions_txt: autoDraw = False
+13.7653 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+13.7653 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+13.7653 	EXP 	trial_debugtxt: text = 0
+13.7654 	EXP 	window1: recordFrameIntervals = False
+15.0013 	EXP 	trial_fixation: autoDraw = True
+15.0013 	EXP 	trial_leftShape: autoDraw = True
+15.0013 	EXP 	trial_rightShape: autoDraw = True
+15.0013 	EXP 	trial_debugtxt: autoDraw = True
+15.1392 	DATA 	Keypress: left
+17.1967 	DATA 	Keypress: right
+18.7596 	EXP 	trial_fixation: autoDraw = False
+18.7596 	EXP 	trial_leftShape: autoDraw = False
+18.7596 	EXP 	trial_rightShape: autoDraw = False
+18.7596 	EXP 	trial_debugtxt: autoDraw = False
+18.7596 	EXP 	feedback_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+18.7596 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+18.7596 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+18.7596 	EXP 	feedback_rightShape: lineColor = '[ 0.  1.  0.] (rgb)'
+18.7596 	EXP 	feedback_leftShape: autoDraw = True
+18.7596 	EXP 	feedback_rightShape: autoDraw = True
+20.4608 	EXP 	New trial (rep=1, index=0): None
+20.4658 	EXP 	window1: recordFrameIntervals = False
+20.4796 	EXP 	feedback_leftShape: autoDraw = False
+20.4796 	EXP 	feedback_rightShape: autoDraw = False
+20.4796 	EXP 	feedback_leftShape: autoDraw = False
+20.4796 	EXP 	feedback_rightShape: autoDraw = False
+20.4796 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+20.4796 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+20.4796 	EXP 	trial_debugtxt: text = 1
+20.4798 	EXP 	window1: recordFrameIntervals = False
+21.4987 	EXP 	trial_fixation: autoDraw = True
+21.4987 	EXP 	trial_leftShape: autoDraw = True
+21.4987 	EXP 	trial_rightShape: autoDraw = True
+21.4987 	EXP 	trial_debugtxt: autoDraw = True
+22.0675 	DATA 	Keypress: left
+24.1707 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+24.1880 	EXP 	trial_fixation: autoDraw = False
+24.1880 	EXP 	trial_leftShape: autoDraw = False
+24.1880 	EXP 	trial_rightShape: autoDraw = False
+24.1880 	EXP 	trial_debugtxt: autoDraw = False
+24.1880 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+24.1880 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+24.1880 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+24.1880 	EXP 	feedback_rightShape: lineColor = '[ 0.  0.  0.] (rgb)'
+24.1880 	EXP 	feedback_leftShape: autoDraw = True
+24.1880 	EXP 	feedback_rightShape: autoDraw = True
+24.5232 	DATA 	Keypress: right
+25.8793 	EXP 	New trial (rep=2, index=0): None
+25.8839 	EXP 	window1: recordFrameIntervals = False
+25.8913 	EXP 	feedback_leftShape: autoDraw = False
+25.8913 	EXP 	feedback_rightShape: autoDraw = False
+25.8913 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+25.8913 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+25.8913 	EXP 	trial_debugtxt: text = 2
+25.8914 	EXP 	window1: recordFrameIntervals = False
+27.2440 	EXP 	trial_fixation: autoDraw = True
+27.2440 	EXP 	trial_leftShape: autoDraw = True
+27.2440 	EXP 	trial_rightShape: autoDraw = True
+27.2440 	EXP 	trial_debugtxt: autoDraw = True
+27.4288 	DATA 	Keypress: left
+29.8009 	DATA 	Keypress: right
+30.9347 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+30.9519 	EXP 	trial_fixation: autoDraw = False
+30.9519 	EXP 	trial_leftShape: autoDraw = False
+30.9519 	EXP 	trial_rightShape: autoDraw = False
+30.9519 	EXP 	trial_debugtxt: autoDraw = False
+30.9519 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+30.9519 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+30.9519 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+30.9519 	EXP 	feedback_rightShape: lineColor = '[ 0.  1.  0.] (rgb)'
+30.9519 	EXP 	feedback_leftShape: autoDraw = True
+30.9519 	EXP 	feedback_rightShape: autoDraw = True
+32.6558 	EXP 	New trial (rep=3, index=0): None
+32.6608 	EXP 	window1: recordFrameIntervals = False
+32.6727 	EXP 	feedback_leftShape: autoDraw = False
+32.6727 	EXP 	feedback_rightShape: autoDraw = False
+32.6727 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+32.6727 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+32.6727 	EXP 	trial_debugtxt: text = 3
+32.6728 	EXP 	window1: recordFrameIntervals = False
+33.9082 	EXP 	trial_fixation: autoDraw = True
+33.9082 	EXP 	trial_leftShape: autoDraw = True
+33.9082 	EXP 	trial_rightShape: autoDraw = True
+33.9082 	EXP 	trial_debugtxt: autoDraw = True
+33.9762 	DATA 	Keypress: left
+36.2479 	DATA 	Keypress: right
+37.5907 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+37.5995 	EXP 	trial_fixation: autoDraw = False
+37.5995 	EXP 	trial_leftShape: autoDraw = False
+37.5995 	EXP 	trial_rightShape: autoDraw = False
+37.5995 	EXP 	trial_debugtxt: autoDraw = False
+37.5995 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+37.5995 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+37.5995 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+37.5995 	EXP 	feedback_rightShape: lineColor = '[ 0.  1.  0.] (rgb)'
+37.5995 	EXP 	feedback_leftShape: autoDraw = True
+37.5995 	EXP 	feedback_rightShape: autoDraw = True
+39.2983 	EXP 	New trial (rep=4, index=0): None
+39.3032 	EXP 	window1: recordFrameIntervals = False
+39.3199 	EXP 	feedback_leftShape: autoDraw = False
+39.3199 	EXP 	feedback_rightShape: autoDraw = False
+39.3199 	EXP 	feedback_leftShape: autoDraw = False
+39.3199 	EXP 	feedback_rightShape: autoDraw = False
+39.3199 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+39.3199 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+39.3199 	EXP 	trial_debugtxt: text = 4
+39.3200 	EXP 	window1: recordFrameIntervals = False
+39.8881 	EXP 	trial_fixation: autoDraw = True
+39.8881 	EXP 	trial_leftShape: autoDraw = True
+39.8881 	EXP 	trial_rightShape: autoDraw = True
+39.8881 	EXP 	trial_debugtxt: autoDraw = True
+40.6574 	DATA 	Keypress: left
+42.6447 	DATA 	Keypress: right
+43.5670 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+43.5789 	EXP 	trial_fixation: autoDraw = False
+43.5789 	EXP 	trial_leftShape: autoDraw = False
+43.5789 	EXP 	trial_rightShape: autoDraw = False
+43.5789 	EXP 	trial_debugtxt: autoDraw = False
+43.5789 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+43.5789 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+43.5789 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+43.5789 	EXP 	feedback_rightShape: lineColor = '[ 0.  1.  0.] (rgb)'
+43.5789 	EXP 	feedback_leftShape: autoDraw = True
+43.5789 	EXP 	feedback_rightShape: autoDraw = True
+45.2719 	EXP 	New trial (rep=5, index=0): None
+45.2775 	EXP 	window1: recordFrameIntervals = False
+45.2829 	EXP 	feedback_leftShape: autoDraw = False
+45.2829 	EXP 	feedback_rightShape: autoDraw = False
+45.2829 	EXP 	feedback_leftShape: autoDraw = False
+45.2829 	EXP 	feedback_rightShape: autoDraw = False
+45.2829 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+45.2829 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+45.2829 	EXP 	trial_debugtxt: text = 5
+45.2834 	EXP 	window1: recordFrameIntervals = False
+45.9677 	EXP 	trial_fixation: autoDraw = True
+45.9677 	EXP 	trial_leftShape: autoDraw = True
+45.9677 	EXP 	trial_rightShape: autoDraw = True
+45.9677 	EXP 	trial_debugtxt: autoDraw = True
+46.8202 	DATA 	Keypress: left
+49.6479 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+49.6499 	DATA 	Keypress: right
+49.6587 	EXP 	trial_fixation: autoDraw = False
+49.6587 	EXP 	trial_leftShape: autoDraw = False
+49.6587 	EXP 	trial_rightShape: autoDraw = False
+49.6587 	EXP 	trial_debugtxt: autoDraw = False
+49.6587 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+49.6587 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+49.6587 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+49.6587 	EXP 	feedback_rightShape: lineColor = '[ 0.  0.  0.] (rgb)'
+49.6587 	EXP 	feedback_leftShape: autoDraw = True
+49.6587 	EXP 	feedback_rightShape: autoDraw = True
+51.3579 	EXP 	New trial (rep=6, index=0): None
+51.3615 	EXP 	window1: recordFrameIntervals = False
+51.3788 	EXP 	feedback_leftShape: autoDraw = False
+51.3788 	EXP 	feedback_rightShape: autoDraw = False
+51.3788 	EXP 	feedback_leftShape: autoDraw = False
+51.3788 	EXP 	feedback_rightShape: autoDraw = False
+51.3788 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+51.3788 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+51.3788 	EXP 	trial_debugtxt: text = 5
+51.3789 	EXP 	window1: recordFrameIntervals = False
+51.9134 	EXP 	trial_fixation: autoDraw = True
+51.9134 	EXP 	trial_leftShape: autoDraw = True
+51.9134 	EXP 	trial_rightShape: autoDraw = True
+51.9134 	EXP 	trial_debugtxt: autoDraw = True
+52.6340 	DATA 	Keypress: left
+54.6132 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+54.6190 	EXP 	trial_fixation: autoDraw = False
+54.6190 	EXP 	trial_leftShape: autoDraw = False
+54.6190 	EXP 	trial_rightShape: autoDraw = False
+54.6190 	EXP 	trial_debugtxt: autoDraw = False
+54.6190 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+54.6190 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+54.6190 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+54.6190 	EXP 	feedback_rightShape: lineColor = '[ 0.  0.  0.] (rgb)'
+54.6190 	EXP 	feedback_leftShape: autoDraw = True
+54.6190 	EXP 	feedback_rightShape: autoDraw = True
+54.8376 	DATA 	Keypress: right
+56.3219 	EXP 	New trial (rep=7, index=0): None
+56.3266 	EXP 	window1: recordFrameIntervals = False
+56.3398 	EXP 	feedback_leftShape: autoDraw = False
+56.3398 	EXP 	feedback_rightShape: autoDraw = False
+56.3398 	EXP 	feedback_leftShape: autoDraw = False
+56.3398 	EXP 	feedback_rightShape: autoDraw = False
+56.3398 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+56.3398 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+56.3398 	EXP 	trial_debugtxt: text = 6
+56.3399 	EXP 	window1: recordFrameIntervals = False
+57.2591 	DATA 	Keypress: left
+57.4918 	EXP 	trial_fixation: autoDraw = True
+57.4918 	EXP 	trial_leftShape: autoDraw = True
+57.4918 	EXP 	trial_rightShape: autoDraw = True
+57.4918 	EXP 	trial_debugtxt: autoDraw = True
+57.6433 	DATA 	Keypress: left
+60.1552 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+60.1576 	DATA 	Keypress: right
+60.1647 	EXP 	trial_fixation: autoDraw = False
+60.1647 	EXP 	trial_leftShape: autoDraw = False
+60.1647 	EXP 	trial_rightShape: autoDraw = False
+60.1647 	EXP 	trial_debugtxt: autoDraw = False
+60.1647 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+60.1647 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+60.1647 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+60.1647 	EXP 	feedback_rightShape: lineColor = '[ 0.  0.  0.] (rgb)'
+60.1647 	EXP 	feedback_leftShape: autoDraw = True
+60.1647 	EXP 	feedback_rightShape: autoDraw = True
+61.8443 	EXP 	New trial (rep=8, index=0): None
+61.8488 	EXP 	window1: recordFrameIntervals = False
+61.8683 	EXP 	feedback_leftShape: autoDraw = False
+61.8683 	EXP 	feedback_rightShape: autoDraw = False
+61.8683 	EXP 	feedback_leftShape: autoDraw = False
+61.8683 	EXP 	feedback_rightShape: autoDraw = False
+61.8683 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+61.8683 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+61.8683 	EXP 	trial_debugtxt: text = 7
+61.8686 	EXP 	window1: recordFrameIntervals = False
+62.7034 	EXP 	trial_fixation: autoDraw = True
+62.7034 	EXP 	trial_leftShape: autoDraw = True
+62.7034 	EXP 	trial_rightShape: autoDraw = True
+62.7034 	EXP 	trial_debugtxt: autoDraw = True
+63.2425 	DATA 	Keypress: left
+65.1469 	DATA 	Keypress: right
+66.3838 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+66.3946 	EXP 	trial_fixation: autoDraw = False
+66.3946 	EXP 	trial_leftShape: autoDraw = False
+66.3946 	EXP 	trial_rightShape: autoDraw = False
+66.3946 	EXP 	trial_debugtxt: autoDraw = False
+66.3946 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+66.3946 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+66.3946 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+66.3946 	EXP 	feedback_rightShape: lineColor = '[ 0.  1.  0.] (rgb)'
+66.3946 	EXP 	feedback_leftShape: autoDraw = True
+66.3946 	EXP 	feedback_rightShape: autoDraw = True
+68.1481 	EXP 	New trial (rep=9, index=0): None
+68.1527 	EXP 	window1: recordFrameIntervals = False
+68.1651 	EXP 	feedback_leftShape: autoDraw = False
+68.1651 	EXP 	feedback_rightShape: autoDraw = False
+68.1651 	EXP 	feedback_leftShape: autoDraw = False
+68.1651 	EXP 	feedback_rightShape: autoDraw = False
+68.1651 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+68.1651 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+68.1651 	EXP 	trial_debugtxt: text = 8
+68.1653 	EXP 	window1: recordFrameIntervals = False
+69.1839 	EXP 	trial_fixation: autoDraw = True
+69.1839 	EXP 	trial_leftShape: autoDraw = True
+69.1839 	EXP 	trial_rightShape: autoDraw = True
+69.1839 	EXP 	trial_debugtxt: autoDraw = True
+69.7538 	DATA 	Keypress: left
+71.1262 	DATA 	Keypress: right
+72.8715 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+72.8918 	EXP 	trial_fixation: autoDraw = False
+72.8918 	EXP 	trial_leftShape: autoDraw = False
+72.8918 	EXP 	trial_rightShape: autoDraw = False
+72.8918 	EXP 	trial_debugtxt: autoDraw = False
+72.8918 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+72.8918 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+72.8918 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+72.8918 	EXP 	feedback_rightShape: lineColor = '[ 0.  1.  0.] (rgb)'
+72.8918 	EXP 	feedback_leftShape: autoDraw = True
+72.8918 	EXP 	feedback_rightShape: autoDraw = True
+74.5487 	EXP 	New trial (rep=10, index=0): None
+74.5553 	EXP 	window1: recordFrameIntervals = False
+74.5619 	EXP 	feedback_leftShape: autoDraw = False
+74.5619 	EXP 	feedback_rightShape: autoDraw = False
+74.5619 	EXP 	feedback_leftShape: autoDraw = False
+74.5619 	EXP 	feedback_rightShape: autoDraw = False
+74.5619 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+74.5619 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+74.5619 	EXP 	trial_debugtxt: text = 9
+74.5622 	EXP 	window1: recordFrameIntervals = False
+75.5479 	DATA 	Keypress: left
+75.7312 	EXP 	trial_fixation: autoDraw = True
+75.7312 	EXP 	trial_leftShape: autoDraw = True
+75.7312 	EXP 	trial_rightShape: autoDraw = True
+75.7312 	EXP 	trial_debugtxt: autoDraw = True
+76.1836 	DATA 	Keypress: left
+77.5877 	DATA 	Keypress: right
+79.4049 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+79.4224 	EXP 	trial_fixation: autoDraw = False
+79.4224 	EXP 	trial_leftShape: autoDraw = False
+79.4224 	EXP 	trial_rightShape: autoDraw = False
+79.4224 	EXP 	trial_debugtxt: autoDraw = False
+79.4224 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+79.4224 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+79.4224 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+79.4224 	EXP 	feedback_rightShape: lineColor = '[ 0.  1.  0.] (rgb)'
+79.4224 	EXP 	feedback_leftShape: autoDraw = True
+79.4224 	EXP 	feedback_rightShape: autoDraw = True
+81.0959 	EXP 	New trial (rep=11, index=0): None
+81.0996 	EXP 	window1: recordFrameIntervals = False
+81.1093 	EXP 	feedback_leftShape: autoDraw = False
+81.1093 	EXP 	feedback_rightShape: autoDraw = False
+81.1093 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+81.1093 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+81.1093 	EXP 	trial_debugtxt: text = 10
+81.1096 	EXP 	window1: recordFrameIntervals = False
+81.7607 	EXP 	trial_fixation: autoDraw = True
+81.7607 	EXP 	trial_leftShape: autoDraw = True
+81.7607 	EXP 	trial_rightShape: autoDraw = True
+81.7607 	EXP 	trial_debugtxt: autoDraw = True
+83.4823 	DATA 	Keypress: left
+85.4231 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+85.4352 	EXP 	trial_fixation: autoDraw = False
+85.4352 	EXP 	trial_leftShape: autoDraw = False
+85.4352 	EXP 	trial_rightShape: autoDraw = False
+85.4352 	EXP 	trial_debugtxt: autoDraw = False
+85.4352 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+85.4352 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+85.4352 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+85.4352 	EXP 	feedback_rightShape: lineColor = '[ 0.  0.  0.] (rgb)'
+85.4352 	EXP 	feedback_leftShape: autoDraw = True
+85.4352 	EXP 	feedback_rightShape: autoDraw = True
+85.4879 	DATA 	Keypress: right
+87.1354 	EXP 	New trial (rep=12, index=0): None
+87.1392 	EXP 	window1: recordFrameIntervals = False
+87.1555 	EXP 	feedback_leftShape: autoDraw = False
+87.1555 	EXP 	feedback_rightShape: autoDraw = False
+87.1555 	EXP 	feedback_leftShape: autoDraw = False
+87.1555 	EXP 	feedback_rightShape: autoDraw = False
+87.1555 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+87.1555 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+87.1555 	EXP 	trial_debugtxt: text = 10
+87.1558 	EXP 	window1: recordFrameIntervals = False
+88.3581 	EXP 	trial_fixation: autoDraw = True
+88.3581 	EXP 	trial_leftShape: autoDraw = True
+88.3581 	EXP 	trial_rightShape: autoDraw = True
+88.3581 	EXP 	trial_debugtxt: autoDraw = True
+88.6611 	DATA 	Keypress: left
+91.0154 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+91.0305 	EXP 	trial_fixation: autoDraw = False
+91.0305 	EXP 	trial_leftShape: autoDraw = False
+91.0305 	EXP 	trial_rightShape: autoDraw = False
+91.0305 	EXP 	trial_debugtxt: autoDraw = False
+91.0305 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+91.0305 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+91.0305 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+91.0305 	EXP 	feedback_rightShape: lineColor = '[ 0.  0.  0.] (rgb)'
+91.0305 	EXP 	feedback_leftShape: autoDraw = True
+91.0305 	EXP 	feedback_rightShape: autoDraw = True
+91.0489 	DATA 	Keypress: right
+92.7025 	EXP 	New trial (rep=13, index=0): None
+92.7061 	EXP 	window1: recordFrameIntervals = False
+92.7174 	EXP 	feedback_leftShape: autoDraw = False
+92.7174 	EXP 	feedback_rightShape: autoDraw = False
+92.7174 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+92.7174 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+92.7174 	EXP 	trial_debugtxt: text = 11
+92.7177 	EXP 	window1: recordFrameIntervals = False
+93.5859 	EXP 	trial_fixation: autoDraw = True
+93.5859 	EXP 	trial_leftShape: autoDraw = True
+93.5859 	EXP 	trial_rightShape: autoDraw = True
+93.5859 	EXP 	trial_debugtxt: autoDraw = True
+94.3065 	DATA 	Keypress: left
+96.3433 	DATA 	Keypress: right
+97.2513 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+97.2604 	EXP 	trial_fixation: autoDraw = False
+97.2604 	EXP 	trial_leftShape: autoDraw = False
+97.2604 	EXP 	trial_rightShape: autoDraw = False
+97.2604 	EXP 	trial_debugtxt: autoDraw = False
+97.2604 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+97.2604 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+97.2604 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+97.2604 	EXP 	feedback_rightShape: lineColor = '[ 0.  1.  0.] (rgb)'
+97.2604 	EXP 	feedback_leftShape: autoDraw = True
+97.2604 	EXP 	feedback_rightShape: autoDraw = True
+98.9315 	EXP 	New trial (rep=14, index=0): None
+98.9352 	EXP 	window1: recordFrameIntervals = False
+98.9473 	EXP 	feedback_leftShape: autoDraw = False
+98.9473 	EXP 	feedback_rightShape: autoDraw = False
+98.9473 	EXP 	feedback_leftShape: autoDraw = False
+98.9473 	EXP 	feedback_rightShape: autoDraw = False
+98.9473 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+98.9473 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+98.9473 	EXP 	trial_debugtxt: text = 12
+98.9476 	EXP 	window1: recordFrameIntervals = False
+99.8493 	EXP 	trial_fixation: autoDraw = True
+99.8493 	EXP 	trial_leftShape: autoDraw = True
+99.8493 	EXP 	trial_rightShape: autoDraw = True
+99.8493 	EXP 	trial_debugtxt: autoDraw = True
+100.5021 	DATA 	Keypress: left
+102.4114 	DATA 	Keypress: right
+103.5653 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+103.5738 	EXP 	trial_fixation: autoDraw = False
+103.5738 	EXP 	trial_leftShape: autoDraw = False
+103.5738 	EXP 	trial_rightShape: autoDraw = False
+103.5738 	EXP 	trial_debugtxt: autoDraw = False
+103.5738 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+103.5738 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+103.5738 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+103.5738 	EXP 	feedback_rightShape: lineColor = '[ 0.  1.  0.] (rgb)'
+103.5738 	EXP 	feedback_leftShape: autoDraw = True
+103.5738 	EXP 	feedback_rightShape: autoDraw = True
+105.2516 	EXP 	New trial (rep=15, index=0): None
+105.2551 	EXP 	window1: recordFrameIntervals = False
+105.2607 	EXP 	feedback_leftShape: autoDraw = False
+105.2607 	EXP 	feedback_rightShape: autoDraw = False
+105.2607 	EXP 	feedback_leftShape: autoDraw = False
+105.2607 	EXP 	feedback_rightShape: autoDraw = False
+105.2607 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+105.2607 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+105.2607 	EXP 	trial_debugtxt: text = 13
+105.2612 	EXP 	window1: recordFrameIntervals = False
+105.8120 	EXP 	trial_fixation: autoDraw = True
+105.8120 	EXP 	trial_leftShape: autoDraw = True
+105.8120 	EXP 	trial_rightShape: autoDraw = True
+105.8120 	EXP 	trial_debugtxt: autoDraw = True
+106.1818 	DATA 	Keypress: left
+108.4885 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+108.4899 	DATA 	Keypress: right
+108.5010 	EXP 	trial_fixation: autoDraw = False
+108.5010 	EXP 	trial_leftShape: autoDraw = False
+108.5010 	EXP 	trial_rightShape: autoDraw = False
+108.5010 	EXP 	trial_debugtxt: autoDraw = False
+108.5010 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+108.5010 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+108.5010 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+108.5010 	EXP 	feedback_rightShape: lineColor = '[ 0.  0.  0.] (rgb)'
+108.5010 	EXP 	feedback_leftShape: autoDraw = True
+108.5010 	EXP 	feedback_rightShape: autoDraw = True
+110.1890 	EXP 	New trial (rep=16, index=0): None
+110.1925 	EXP 	window1: recordFrameIntervals = False
+110.2047 	EXP 	feedback_leftShape: autoDraw = False
+110.2047 	EXP 	feedback_rightShape: autoDraw = False
+110.2047 	EXP 	feedback_leftShape: autoDraw = False
+110.2047 	EXP 	feedback_rightShape: autoDraw = False
+110.2047 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+110.2047 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+110.2047 	EXP 	trial_debugtxt: text = 14
+110.2050 	EXP 	window1: recordFrameIntervals = False
+110.7333 	DATA 	Keypress: left
+110.9562 	EXP 	trial_fixation: autoDraw = True
+110.9562 	EXP 	trial_leftShape: autoDraw = True
+110.9562 	EXP 	trial_rightShape: autoDraw = True
+110.9562 	EXP 	trial_debugtxt: autoDraw = True
+111.2423 	DATA 	Keypress: left
+113.6342 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+113.6366 	DATA 	Keypress: right
+113.6453 	EXP 	trial_fixation: autoDraw = False
+113.6453 	EXP 	trial_leftShape: autoDraw = False
+113.6453 	EXP 	trial_rightShape: autoDraw = False
+113.6453 	EXP 	trial_debugtxt: autoDraw = False
+113.6453 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+113.6453 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+113.6453 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+113.6453 	EXP 	feedback_rightShape: lineColor = '[ 0.  0.  0.] (rgb)'
+113.6453 	EXP 	feedback_leftShape: autoDraw = True
+113.6453 	EXP 	feedback_rightShape: autoDraw = True
+115.3309 	EXP 	New trial (rep=17, index=0): None
+115.3347 	EXP 	window1: recordFrameIntervals = False
+115.3489 	EXP 	feedback_leftShape: autoDraw = False
+115.3489 	EXP 	feedback_rightShape: autoDraw = False
+115.3489 	EXP 	feedback_leftShape: autoDraw = False
+115.3489 	EXP 	feedback_rightShape: autoDraw = False
+115.3489 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+115.3489 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+115.3489 	EXP 	trial_debugtxt: text = 15
+115.3500 	EXP 	window1: recordFrameIntervals = False
+116.0672 	EXP 	trial_fixation: autoDraw = True
+116.0672 	EXP 	trial_leftShape: autoDraw = True
+116.0672 	EXP 	trial_rightShape: autoDraw = True
+116.0672 	EXP 	trial_debugtxt: autoDraw = True
+116.8221 	DATA 	Keypress: left
+118.5249 	DATA 	Keypress: right
+119.7355 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+119.7416 	EXP 	trial_fixation: autoDraw = False
+119.7416 	EXP 	trial_leftShape: autoDraw = False
+119.7416 	EXP 	trial_rightShape: autoDraw = False
+119.7416 	EXP 	trial_debugtxt: autoDraw = False
+119.7416 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+119.7416 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+119.7416 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+119.7416 	EXP 	feedback_rightShape: lineColor = '[ 0.  1.  0.] (rgb)'
+119.7416 	EXP 	feedback_leftShape: autoDraw = True
+119.7416 	EXP 	feedback_rightShape: autoDraw = True
+121.4252 	EXP 	New trial (rep=18, index=0): None
+121.4288 	EXP 	window1: recordFrameIntervals = False
+121.4453 	EXP 	feedback_leftShape: autoDraw = False
+121.4453 	EXP 	feedback_rightShape: autoDraw = False
+121.4453 	EXP 	feedback_leftShape: autoDraw = False
+121.4453 	EXP 	feedback_rightShape: autoDraw = False
+121.4453 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+121.4453 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+121.4453 	EXP 	trial_debugtxt: text = 16
+121.4456 	EXP 	window1: recordFrameIntervals = False
+122.4808 	EXP 	trial_fixation: autoDraw = True
+122.4808 	EXP 	trial_leftShape: autoDraw = True
+122.4808 	EXP 	trial_rightShape: autoDraw = True
+122.4808 	EXP 	trial_debugtxt: autoDraw = True
+123.0501 	DATA 	Keypress: left
+124.6088 	DATA 	Keypress: right
+126.1344 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+126.1553 	EXP 	trial_fixation: autoDraw = False
+126.1553 	EXP 	trial_leftShape: autoDraw = False
+126.1553 	EXP 	trial_rightShape: autoDraw = False
+126.1553 	EXP 	trial_debugtxt: autoDraw = False
+126.1553 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+126.1553 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+126.1553 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+126.1553 	EXP 	feedback_rightShape: lineColor = '[ 0.  1.  0.] (rgb)'
+126.1553 	EXP 	feedback_leftShape: autoDraw = True
+126.1553 	EXP 	feedback_rightShape: autoDraw = True
+127.8135 	EXP 	New trial (rep=19, index=0): None
+127.8171 	EXP 	window1: recordFrameIntervals = False
+127.8255 	EXP 	feedback_leftShape: autoDraw = False
+127.8255 	EXP 	feedback_rightShape: autoDraw = False
+127.8255 	EXP 	feedback_leftShape: autoDraw = False
+127.8255 	EXP 	feedback_rightShape: autoDraw = False
+127.8255 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+127.8255 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+127.8255 	EXP 	trial_debugtxt: text = 17
+127.8258 	EXP 	window1: recordFrameIntervals = False
+128.7442 	EXP 	trial_fixation: autoDraw = True
+128.7442 	EXP 	trial_leftShape: autoDraw = True
+128.7442 	EXP 	trial_rightShape: autoDraw = True
+128.7442 	EXP 	trial_debugtxt: autoDraw = True
+128.9326 	DATA 	Keypress: left
+131.3185 	DATA 	Keypress: right
+132.4137 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+132.4353 	EXP 	trial_fixation: autoDraw = False
+132.4353 	EXP 	trial_leftShape: autoDraw = False
+132.4353 	EXP 	trial_rightShape: autoDraw = False
+132.4353 	EXP 	trial_debugtxt: autoDraw = False
+132.4353 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+132.4353 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+132.4353 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+132.4353 	EXP 	feedback_rightShape: lineColor = '[ 0.  1.  0.] (rgb)'
+132.4353 	EXP 	feedback_leftShape: autoDraw = True
+132.4353 	EXP 	feedback_rightShape: autoDraw = True
+134.1184 	EXP 	New trial (rep=20, index=0): None
+134.1221 	EXP 	window1: recordFrameIntervals = False
+134.1231 	DATA 	Keypress: left
+134.1390 	EXP 	feedback_leftShape: autoDraw = False
+134.1390 	EXP 	feedback_rightShape: autoDraw = False
+134.1390 	EXP 	feedback_leftShape: autoDraw = False
+134.1390 	EXP 	feedback_rightShape: autoDraw = False
+134.1390 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+134.1390 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+134.1390 	EXP 	trial_debugtxt: text = 18
+134.1393 	EXP 	window1: recordFrameIntervals = False
+135.2272 	DATA 	Keypress: left
+135.3248 	EXP 	trial_fixation: autoDraw = True
+135.3248 	EXP 	trial_leftShape: autoDraw = True
+135.3248 	EXP 	trial_rightShape: autoDraw = True
+135.3248 	EXP 	trial_debugtxt: autoDraw = True
+135.9453 	DATA 	Keypress: left
+137.9916 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+137.9973 	EXP 	trial_fixation: autoDraw = False
+137.9973 	EXP 	trial_leftShape: autoDraw = False
+137.9973 	EXP 	trial_rightShape: autoDraw = False
+137.9973 	EXP 	trial_debugtxt: autoDraw = False
+137.9973 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+137.9973 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+137.9973 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+137.9973 	EXP 	feedback_rightShape: lineColor = '[ 0.  0.  0.] (rgb)'
+137.9973 	EXP 	feedback_leftShape: autoDraw = True
+137.9973 	EXP 	feedback_rightShape: autoDraw = True
+138.1166 	DATA 	Keypress: right
+139.6852 	EXP 	New trial (rep=21, index=0): None
+139.6891 	EXP 	window1: recordFrameIntervals = False
+139.7003 	EXP 	feedback_leftShape: autoDraw = False
+139.7003 	EXP 	feedback_rightShape: autoDraw = False
+139.7003 	EXP 	feedback_leftShape: autoDraw = False
+139.7003 	EXP 	feedback_rightShape: autoDraw = False
+139.7003 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+139.7003 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+139.7003 	EXP 	trial_debugtxt: text = 19
+139.7004 	EXP 	window1: recordFrameIntervals = False
+141.1874 	EXP 	trial_fixation: autoDraw = True
+141.1874 	EXP 	trial_leftShape: autoDraw = True
+141.1874 	EXP 	trial_rightShape: autoDraw = True
+141.1874 	EXP 	trial_debugtxt: autoDraw = True
+141.4067 	DATA 	Keypress: left
+143.3488 	DATA 	Keypress: right
+144.8416 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+144.8619 	EXP 	trial_fixation: autoDraw = False
+144.8619 	EXP 	trial_leftShape: autoDraw = False
+144.8619 	EXP 	trial_rightShape: autoDraw = False
+144.8619 	EXP 	trial_debugtxt: autoDraw = False
+144.8619 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+144.8619 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+144.8619 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+144.8619 	EXP 	feedback_rightShape: lineColor = '[ 0.  1.  0.] (rgb)'
+144.8619 	EXP 	feedback_leftShape: autoDraw = True
+144.8619 	EXP 	feedback_rightShape: autoDraw = True
+146.5072 	EXP 	New trial (rep=22, index=0): None
+146.5115 	EXP 	window1: recordFrameIntervals = False
+146.5321 	EXP 	feedback_leftShape: autoDraw = False
+146.5321 	EXP 	feedback_rightShape: autoDraw = False
+146.5321 	EXP 	feedback_leftShape: autoDraw = False
+146.5321 	EXP 	feedback_rightShape: autoDraw = False
+146.5321 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+146.5321 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+146.5321 	EXP 	trial_debugtxt: text = 20
+146.5324 	EXP 	window1: recordFrameIntervals = False
+147.5008 	EXP 	trial_fixation: autoDraw = True
+147.5008 	EXP 	trial_leftShape: autoDraw = True
+147.5008 	EXP 	trial_rightShape: autoDraw = True
+147.5008 	EXP 	trial_debugtxt: autoDraw = True
+148.2545 	DATA 	Keypress: left
+150.2009 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+150.2033 	DATA 	Keypress: right
+150.2233 	EXP 	trial_fixation: autoDraw = False
+150.2233 	EXP 	trial_leftShape: autoDraw = False
+150.2233 	EXP 	trial_rightShape: autoDraw = False
+150.2233 	EXP 	trial_debugtxt: autoDraw = False
+150.2233 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+150.2233 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+150.2233 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+150.2233 	EXP 	feedback_rightShape: lineColor = '[ 0.  0.  0.] (rgb)'
+150.2233 	EXP 	feedback_leftShape: autoDraw = True
+150.2233 	EXP 	feedback_rightShape: autoDraw = True
+151.8805 	EXP 	New trial (rep=23, index=0): None
+151.8869 	EXP 	window1: recordFrameIntervals = False
+151.8935 	EXP 	feedback_leftShape: autoDraw = False
+151.8935 	EXP 	feedback_rightShape: autoDraw = False
+151.8935 	EXP 	feedback_leftShape: autoDraw = False
+151.8935 	EXP 	feedback_rightShape: autoDraw = False
+151.8935 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+151.8935 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+151.8935 	EXP 	trial_debugtxt: text = 21
+151.8936 	EXP 	window1: recordFrameIntervals = False
+153.0961 	EXP 	trial_fixation: autoDraw = True
+153.0961 	EXP 	trial_leftShape: autoDraw = True
+153.0961 	EXP 	trial_rightShape: autoDraw = True
+153.0961 	EXP 	trial_debugtxt: autoDraw = True
+153.5495 	DATA 	Keypress: left
+155.5204 	DATA 	Keypress: right
+156.7413 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+156.7539 	EXP 	trial_fixation: autoDraw = False
+156.7539 	EXP 	trial_leftShape: autoDraw = False
+156.7539 	EXP 	trial_rightShape: autoDraw = False
+156.7539 	EXP 	trial_debugtxt: autoDraw = False
+156.7539 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+156.7539 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+156.7539 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+156.7539 	EXP 	feedback_rightShape: lineColor = '[ 0.  1.  0.] (rgb)'
+156.7539 	EXP 	feedback_leftShape: autoDraw = True
+156.7539 	EXP 	feedback_rightShape: autoDraw = True
+158.4461 	EXP 	New trial (rep=24, index=0): None
+158.4497 	EXP 	window1: recordFrameIntervals = False
+158.4575 	EXP 	feedback_leftShape: autoDraw = False
+158.4575 	EXP 	feedback_rightShape: autoDraw = False
+158.4575 	EXP 	feedback_leftShape: autoDraw = False
+158.4575 	EXP 	feedback_rightShape: autoDraw = False
+158.4575 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+158.4575 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+158.4575 	EXP 	trial_debugtxt: text = 22
+158.4576 	EXP 	window1: recordFrameIntervals = False
+159.1590 	EXP 	trial_fixation: autoDraw = True
+159.1590 	EXP 	trial_leftShape: autoDraw = True
+159.1590 	EXP 	trial_rightShape: autoDraw = True
+159.1590 	EXP 	trial_debugtxt: autoDraw = True
+159.9473 	DATA 	Keypress: left
+160.3641 	DATA 	Keypress: left
+161.7493 	DATA 	Keypress: right
+162.8079 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+162.8168 	EXP 	trial_fixation: autoDraw = False
+162.8168 	EXP 	trial_leftShape: autoDraw = False
+162.8168 	EXP 	trial_rightShape: autoDraw = False
+162.8168 	EXP 	trial_debugtxt: autoDraw = False
+162.8168 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+162.8168 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+162.8168 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+162.8168 	EXP 	feedback_rightShape: lineColor = '[ 0.  1.  0.] (rgb)'
+162.8168 	EXP 	feedback_leftShape: autoDraw = True
+162.8168 	EXP 	feedback_rightShape: autoDraw = True
+164.4975 	EXP 	New trial (rep=25, index=0): None
+164.5011 	EXP 	window1: recordFrameIntervals = False
+164.5204 	EXP 	feedback_leftShape: autoDraw = False
+164.5204 	EXP 	feedback_rightShape: autoDraw = False
+164.5204 	EXP 	feedback_leftShape: autoDraw = False
+164.5204 	EXP 	feedback_rightShape: autoDraw = False
+164.5204 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+164.5204 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+164.5204 	EXP 	trial_debugtxt: text = 23
+164.5207 	EXP 	window1: recordFrameIntervals = False
+165.1051 	EXP 	trial_fixation: autoDraw = True
+165.1051 	EXP 	trial_leftShape: autoDraw = True
+165.1051 	EXP 	trial_rightShape: autoDraw = True
+165.1051 	EXP 	trial_debugtxt: autoDraw = True
+167.8109 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+167.8124 	DATA 	Keypress: left
+167.8275 	EXP 	trial_fixation: autoDraw = False
+167.8275 	EXP 	trial_leftShape: autoDraw = False
+167.8275 	EXP 	trial_rightShape: autoDraw = False
+167.8275 	EXP 	trial_debugtxt: autoDraw = False
+167.8275 	EXP 	feedback_leftShape: fillColor = 'red (named)'
+167.8275 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+167.8275 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+167.8275 	EXP 	feedback_rightShape: lineColor = '[ 0.  0.  0.] (rgb)'
+167.8275 	EXP 	feedback_leftShape: autoDraw = True
+167.8275 	EXP 	feedback_rightShape: autoDraw = True
+169.5654 	EXP 	New trial (rep=26, index=0): None
+169.5693 	EXP 	window1: recordFrameIntervals = False
+169.5812 	EXP 	feedback_leftShape: autoDraw = False
+169.5812 	EXP 	feedback_rightShape: autoDraw = False
+169.5812 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+169.5812 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+169.5812 	EXP 	trial_debugtxt: text = 23
+169.5815 	EXP 	window1: recordFrameIntervals = False
+170.1157 	EXP 	trial_fixation: autoDraw = True
+170.1157 	EXP 	trial_leftShape: autoDraw = True
+170.1157 	EXP 	trial_rightShape: autoDraw = True
+170.1157 	EXP 	trial_debugtxt: autoDraw = True
+171.7410 	DATA 	Keypress: left
+173.8210 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+173.8229 	DATA 	Keypress: right
+173.8403 	EXP 	trial_fixation: autoDraw = False
+173.8403 	EXP 	trial_leftShape: autoDraw = False
+173.8403 	EXP 	trial_rightShape: autoDraw = False
+173.8403 	EXP 	trial_debugtxt: autoDraw = False
+173.8403 	EXP 	feedback_leftShape: fillColor = 'red (named)'
+173.8403 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+173.8403 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+173.8403 	EXP 	feedback_rightShape: lineColor = '[ 0.  0.  0.] (rgb)'
+173.8403 	EXP 	feedback_leftShape: autoDraw = True
+173.8403 	EXP 	feedback_rightShape: autoDraw = True
+175.5359 	EXP 	New trial (rep=27, index=0): None
+175.5398 	EXP 	window1: recordFrameIntervals = False
+175.5606 	EXP 	feedback_leftShape: autoDraw = False
+175.5606 	EXP 	feedback_rightShape: autoDraw = False
+175.5606 	EXP 	feedback_leftShape: autoDraw = False
+175.5606 	EXP 	feedback_rightShape: autoDraw = False
+175.5606 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+175.5606 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+175.5606 	EXP 	trial_debugtxt: text = 23
+175.5618 	EXP 	window1: recordFrameIntervals = False
+177.0304 	EXP 	trial_fixation: autoDraw = True
+177.0304 	EXP 	trial_leftShape: autoDraw = True
+177.0304 	EXP 	trial_rightShape: autoDraw = True
+177.0304 	EXP 	trial_debugtxt: autoDraw = True
+177.2501 	DATA 	Keypress: left
+179.3569 	DATA 	Keypress: right
+180.7049 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+180.7216 	EXP 	trial_fixation: autoDraw = False
+180.7216 	EXP 	trial_leftShape: autoDraw = False
+180.7216 	EXP 	trial_rightShape: autoDraw = False
+180.7216 	EXP 	trial_debugtxt: autoDraw = False
+180.7216 	EXP 	feedback_leftShape: fillColor = 'red (named)'
+180.7216 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+180.7216 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+180.7216 	EXP 	feedback_rightShape: lineColor = '[ 0.  1.  0.] (rgb)'
+180.7216 	EXP 	feedback_leftShape: autoDraw = True
+180.7216 	EXP 	feedback_rightShape: autoDraw = True
+182.4124 	EXP 	New trial (rep=28, index=0): None
+182.4160 	EXP 	window1: recordFrameIntervals = False
+182.4247 	EXP 	feedback_leftShape: autoDraw = False
+182.4247 	EXP 	feedback_rightShape: autoDraw = False
+182.4247 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+182.4247 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+182.4247 	EXP 	trial_debugtxt: text = 24
+182.4250 	EXP 	window1: recordFrameIntervals = False
+183.6445 	EXP 	trial_fixation: autoDraw = True
+183.6445 	EXP 	trial_leftShape: autoDraw = True
+183.6445 	EXP 	trial_rightShape: autoDraw = True
+183.6445 	EXP 	trial_debugtxt: autoDraw = True
+184.1300 	DATA 	Keypress: left
+186.3248 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+186.3262 	DATA 	Keypress: right
+186.3336 	EXP 	trial_fixation: autoDraw = False
+186.3336 	EXP 	trial_leftShape: autoDraw = False
+186.3336 	EXP 	trial_rightShape: autoDraw = False
+186.3336 	EXP 	trial_debugtxt: autoDraw = False
+186.3336 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+186.3336 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+186.3336 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+186.3336 	EXP 	feedback_rightShape: lineColor = '[ 0.  0.  0.] (rgb)'
+186.3336 	EXP 	feedback_leftShape: autoDraw = True
+186.3336 	EXP 	feedback_rightShape: autoDraw = True
+188.0118 	EXP 	New trial (rep=29, index=0): None
+188.0155 	EXP 	window1: recordFrameIntervals = False
+188.0205 	EXP 	feedback_leftShape: autoDraw = False
+188.0205 	EXP 	feedback_rightShape: autoDraw = False
+188.0205 	EXP 	feedback_leftShape: autoDraw = False
+188.0205 	EXP 	feedback_rightShape: autoDraw = False
+188.0205 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+188.0205 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+188.0205 	EXP 	trial_debugtxt: text = 25
+188.0208 	EXP 	window1: recordFrameIntervals = False
+188.9057 	EXP 	trial_fixation: autoDraw = True
+188.9057 	EXP 	trial_leftShape: autoDraw = True
+188.9057 	EXP 	trial_rightShape: autoDraw = True
+188.9057 	EXP 	trial_debugtxt: autoDraw = True
+189.1921 	DATA 	Keypress: left
+190.9792 	DATA 	Keypress: right
+192.5644 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+192.5802 	EXP 	trial_fixation: autoDraw = False
+192.5802 	EXP 	trial_leftShape: autoDraw = False
+192.5802 	EXP 	trial_rightShape: autoDraw = False
+192.5802 	EXP 	trial_debugtxt: autoDraw = False
+192.5802 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+192.5802 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+192.5802 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+192.5802 	EXP 	feedback_rightShape: lineColor = '[ 0.  1.  0.] (rgb)'
+192.5802 	EXP 	feedback_leftShape: autoDraw = True
+192.5802 	EXP 	feedback_rightShape: autoDraw = True
+194.2499 	EXP 	New trial (rep=30, index=0): None
+194.2535 	EXP 	window1: recordFrameIntervals = False
+194.2672 	EXP 	feedback_leftShape: autoDraw = False
+194.2672 	EXP 	feedback_rightShape: autoDraw = False
+194.2672 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+194.2672 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+194.2672 	EXP 	trial_debugtxt: text = 26
+194.2674 	EXP 	window1: recordFrameIntervals = False
+195.4196 	EXP 	trial_fixation: autoDraw = True
+195.4196 	EXP 	trial_leftShape: autoDraw = True
+195.4196 	EXP 	trial_rightShape: autoDraw = True
+195.4196 	EXP 	trial_debugtxt: autoDraw = True
+195.7228 	DATA 	Keypress: left
+197.5638 	DATA 	Keypress: right
+199.0833 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+199.0941 	EXP 	trial_fixation: autoDraw = False
+199.0941 	EXP 	trial_leftShape: autoDraw = False
+199.0941 	EXP 	trial_rightShape: autoDraw = False
+199.0941 	EXP 	trial_debugtxt: autoDraw = False
+199.0941 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+199.0941 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+199.0941 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+199.0941 	EXP 	feedback_rightShape: lineColor = '[ 0.  1.  0.] (rgb)'
+199.0941 	EXP 	feedback_leftShape: autoDraw = True
+199.0941 	EXP 	feedback_rightShape: autoDraw = True
+200.7598 	EXP 	New trial (rep=31, index=0): None
+200.7634 	EXP 	window1: recordFrameIntervals = False
+200.7811 	EXP 	feedback_leftShape: autoDraw = False
+200.7811 	EXP 	feedback_rightShape: autoDraw = False
+200.7811 	EXP 	feedback_leftShape: autoDraw = False
+200.7811 	EXP 	feedback_rightShape: autoDraw = False
+200.7811 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+200.7811 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+200.7811 	EXP 	trial_debugtxt: text = 27
+200.7814 	EXP 	window1: recordFrameIntervals = False
+201.3823 	EXP 	trial_fixation: autoDraw = True
+201.3823 	EXP 	trial_leftShape: autoDraw = True
+201.3823 	EXP 	trial_rightShape: autoDraw = True
+201.3823 	EXP 	trial_debugtxt: autoDraw = True
+202.5034 	DATA 	Keypress: left
+204.0894 	DATA 	Keypress: right
+205.0461 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+205.0568 	EXP 	trial_fixation: autoDraw = False
+205.0568 	EXP 	trial_leftShape: autoDraw = False
+205.0568 	EXP 	trial_rightShape: autoDraw = False
+205.0568 	EXP 	trial_debugtxt: autoDraw = False
+205.0568 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+205.0568 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+205.0568 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+205.0568 	EXP 	feedback_rightShape: lineColor = '[ 0.  1.  0.] (rgb)'
+205.0568 	EXP 	feedback_leftShape: autoDraw = True
+205.0568 	EXP 	feedback_rightShape: autoDraw = True
+206.7423 	EXP 	New trial (rep=32, index=0): None
+206.7460 	EXP 	window1: recordFrameIntervals = False
+206.7605 	EXP 	feedback_leftShape: autoDraw = False
+206.7605 	EXP 	feedback_rightShape: autoDraw = False
+206.7605 	EXP 	feedback_leftShape: autoDraw = False
+206.7605 	EXP 	feedback_rightShape: autoDraw = False
+206.7605 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+206.7605 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+206.7605 	EXP 	trial_debugtxt: text = 28
+206.7608 	EXP 	window1: recordFrameIntervals = False
+208.0966 	EXP 	trial_fixation: autoDraw = True
+208.0966 	EXP 	trial_leftShape: autoDraw = True
+208.0966 	EXP 	trial_rightShape: autoDraw = True
+208.0966 	EXP 	trial_debugtxt: autoDraw = True
+208.6155 	DATA 	Keypress: left
+210.9384 	DATA 	Keypress: right
+211.7667 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+211.7878 	EXP 	trial_fixation: autoDraw = False
+211.7878 	EXP 	trial_leftShape: autoDraw = False
+211.7878 	EXP 	trial_rightShape: autoDraw = False
+211.7878 	EXP 	trial_debugtxt: autoDraw = False
+211.7878 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+211.7878 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+211.7878 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+211.7878 	EXP 	feedback_rightShape: lineColor = '[ 0.  1.  0.] (rgb)'
+211.7878 	EXP 	feedback_leftShape: autoDraw = True
+211.7878 	EXP 	feedback_rightShape: autoDraw = True
+213.4446 	EXP 	New trial (rep=33, index=0): None
+213.4484 	EXP 	window1: recordFrameIntervals = False
+213.4580 	EXP 	feedback_leftShape: autoDraw = False
+213.4580 	EXP 	feedback_rightShape: autoDraw = False
+213.4580 	EXP 	feedback_leftShape: autoDraw = False
+213.4580 	EXP 	feedback_rightShape: autoDraw = False
+213.4580 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+213.4580 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+213.4580 	EXP 	trial_debugtxt: text = 29
+213.4583 	EXP 	window1: recordFrameIntervals = False
+214.2598 	EXP 	trial_fixation: autoDraw = True
+214.2598 	EXP 	trial_leftShape: autoDraw = True
+214.2598 	EXP 	trial_rightShape: autoDraw = True
+214.2598 	EXP 	trial_debugtxt: autoDraw = True
+216.0149 	DATA 	Keypress: left
+217.9654 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+217.9682 	DATA 	Keypress: right
+217.9843 	EXP 	trial_fixation: autoDraw = False
+217.9843 	EXP 	trial_leftShape: autoDraw = False
+217.9843 	EXP 	trial_rightShape: autoDraw = False
+217.9843 	EXP 	trial_debugtxt: autoDraw = False
+217.9843 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+217.9843 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+217.9843 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+217.9843 	EXP 	feedback_rightShape: lineColor = '[ 0.  0.  0.] (rgb)'
+217.9843 	EXP 	feedback_leftShape: autoDraw = True
+217.9843 	EXP 	feedback_rightShape: autoDraw = True
+219.6418 	EXP 	New trial (rep=34, index=0): None
+219.6454 	EXP 	window1: recordFrameIntervals = False
+219.6546 	EXP 	feedback_leftShape: autoDraw = False
+219.6546 	EXP 	feedback_rightShape: autoDraw = False
+219.6546 	EXP 	feedback_leftShape: autoDraw = False
+219.6546 	EXP 	feedback_rightShape: autoDraw = False
+219.6546 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+219.6546 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+219.6546 	EXP 	trial_debugtxt: text = 29
+219.6549 	EXP 	window1: recordFrameIntervals = False
+220.2225 	EXP 	trial_fixation: autoDraw = True
+220.2225 	EXP 	trial_leftShape: autoDraw = True
+220.2225 	EXP 	trial_rightShape: autoDraw = True
+220.2225 	EXP 	trial_debugtxt: autoDraw = True
+221.0933 	DATA 	Keypress: left
+222.9040 	ERROR 	If you setColor with a numeric color value then you need to specify a color space, e.g. setColor([1,1,-1],'rgb'), unless you used a numeric value previously in which case PsychoPy will reuse that color space.)
+222.9115 	EXP 	trial_fixation: autoDraw = False
+222.9115 	EXP 	trial_leftShape: autoDraw = False
+222.9115 	EXP 	trial_rightShape: autoDraw = False
+222.9115 	EXP 	trial_debugtxt: autoDraw = False
+222.9115 	EXP 	feedback_leftShape: fillColor = 'green (named)'
+222.9115 	EXP 	feedback_leftShape: lineColor = '[ 0.  0.  0.] (rgb)'
+222.9115 	EXP 	feedback_rightShape: fillColor = 'green (named)'
+222.9115 	EXP 	feedback_rightShape: lineColor = '[ 0.  0.  0.] (rgb)'
+222.9115 	EXP 	feedback_leftShape: autoDraw = True
+222.9115 	EXP 	feedback_rightShape: autoDraw = True
+224.5934 	EXP 	New trial (rep=35, index=0): None
+224.5970 	EXP 	window1: recordFrameIntervals = False
+224.6152 	EXP 	feedback_leftShape: autoDraw = False
+224.6152 	EXP 	feedback_rightShape: autoDraw = False
+224.6152 	EXP 	feedback_leftShape: autoDraw = False
+224.6152 	EXP 	feedback_rightShape: autoDraw = False
+224.6152 	EXP 	trial_leftShape: fillColor = '[ 0.  0.  0.] (rgb)'
+224.6152 	EXP 	trial_rightShape: fillColor = '[ 0.  0.  0.] (rgb)'
+224.6152 	EXP 	trial_debugtxt: text = 30
+224.6155 	EXP 	window1: recordFrameIntervals = False
+225.3334 	EXP 	trial_fixation: autoDraw = True
+225.3334 	EXP 	trial_leftShape: autoDraw = True
+225.3334 	EXP 	trial_rightShape: autoDraw = True
+225.3334 	EXP 	trial_debugtxt: autoDraw = True
+225.9358 	DATA 	Keypress: left
+227.1731 	DATA 	Keypress: escape
