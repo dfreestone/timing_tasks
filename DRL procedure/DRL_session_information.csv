@@ -1,2 +1,2 @@
-Interval,Session_duration,Break_duration,Task_duration
-5,1,1,10
+Interval,Reward,Cost,Session_duration,Break_duration,Task_duration
+5,1,0,1,1,10
