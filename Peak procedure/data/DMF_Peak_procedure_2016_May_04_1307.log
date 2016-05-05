@@ -1,0 +1,955 @@
+20.7850 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0x10fc53320>, name='window1', pos=[0, 0], screen=0, size=array([1280,  800]), stereo=False, units=u'norm', useFBO=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+20.7850 	EXP 	window1: recordFrameIntervals = False
+20.9509 	EXP 	window1: recordFrameIntervals = True
+21.1348 	EXP 	window1: recordFrameIntervals = False
+21.4337 	EXP 	Created instructions_txt = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='instructions_txt', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'Here be the task', units=u'norm', win=Window(...), wrapWidth=1)
+21.4409 	EXP 	Created fixed_fixation = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='fixed_fixation', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+21.4463 	EXP 	Created peak_fixation = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='peak_fixation', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+21.4571 	EXP 	Created feedback_score = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='feedback_score', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+21.4635 	EXP 	Created break_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='break_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+21.4853 	EXP 	instructions_txt: autoDraw = True
+26.0995 	DATA 	Keypress: space
+27.5290 	EXP 	Created sequence: random, trialTypes=1, nReps=100000, seed=None
+28.2944 	EXP 	New trial (rep=0, index=0): None
+28.2945 	EXP 	window1: recordFrameIntervals = False
+28.2945 	EXP 	window1: recordFrameIntervals = False
+28.2999 	EXP 	instructions_txt: autoDraw = False
+28.2999 	EXP 	window1: recordFrameIntervals = False
+29.0733 	EXP 	window1: recordFrameIntervals = False
+29.0734 	WARNING 	We overshot the intended duration of ITI_isi by 0.2788s. The intervening code took too long to execute.
+29.0740 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+29.0743 	EXP 	New trial (rep=0, index=0): None
+29.0848 	EXP 	fixed_fixation: autoDraw = True
+31.0906 	DATA 	Keypress: space
+31.2926 	DATA 	Keypress: space
+31.4749 	DATA 	Keypress: space
+31.6590 	DATA 	Keypress: space
+32.1428 	DATA 	Keypress: space
+32.1594 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+32.1597 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+32.1600 	EXP 	New trial (rep=0, index=0): None
+32.1915 	EXP 	fixed_fixation: autoDraw = False
+32.1915 	EXP 	feedback_score: text = 'Your trial score is 0.6. \nYour total score is 0.6'
+32.1915 	EXP 	feedback_score: autoDraw = True
+32.2766 	DATA 	Keypress: space
+33.1609 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+33.9553 	EXP 	New trial (rep=1, index=0): None
+33.9554 	EXP 	window1: recordFrameIntervals = False
+33.9554 	EXP 	window1: recordFrameIntervals = False
+33.9618 	EXP 	feedback_score: autoDraw = False
+33.9619 	EXP 	window1: recordFrameIntervals = False
+35.1031 	EXP 	window1: recordFrameIntervals = False
+35.1031 	WARNING 	We overshot the intended duration of ITI_isi by 0.6476s. The intervening code took too long to execute.
+35.1037 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+35.1040 	EXP 	New trial (rep=0, index=0): None
+35.1144 	EXP 	fixed_fixation: autoDraw = True
+37.1872 	DATA 	Keypress: space
+37.4041 	DATA 	Keypress: space
+37.5545 	DATA 	Keypress: space
+38.0555 	DATA 	Keypress: space
+38.2392 	DATA 	Keypress: space
+38.2556 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+38.2559 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+38.2562 	EXP 	New trial (rep=0, index=0): None
+38.2878 	EXP 	fixed_fixation: autoDraw = False
+38.2878 	EXP 	feedback_score: text = 'Your trial score is 0.5. \nYour total score is 1.1'
+38.2878 	EXP 	feedback_score: autoDraw = True
+39.2572 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+40.0218 	EXP 	New trial (rep=2, index=0): None
+40.0219 	EXP 	window1: recordFrameIntervals = False
+40.0219 	EXP 	window1: recordFrameIntervals = False
+40.0416 	EXP 	feedback_score: autoDraw = False
+40.0416 	EXP 	window1: recordFrameIntervals = False
+41.3013 	EXP 	window1: recordFrameIntervals = False
+41.3013 	WARNING 	We overshot the intended duration of ITI_isi by 0.7794s. The intervening code took too long to execute.
+41.3019 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+41.3022 	EXP 	New trial (rep=0, index=0): None
+41.3108 	EXP 	fixed_fixation: autoDraw = True
+43.5340 	DATA 	Keypress: space
+43.7508 	DATA 	Keypress: space
+43.9346 	DATA 	Keypress: space
+44.1350 	DATA 	Keypress: space
+45.1874 	DATA 	Keypress: space
+45.2047 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+45.2052 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+45.2057 	EXP 	New trial (rep=0, index=0): None
+45.2359 	EXP 	fixed_fixation: autoDraw = False
+45.2359 	EXP 	feedback_score: text = 'Your trial score is 0.6. \nYour total score is 1.7'
+45.2359 	EXP 	feedback_score: autoDraw = True
+45.4057 	DATA 	Keypress: space
+46.2056 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+46.9911 	EXP 	New trial (rep=3, index=0): None
+46.9911 	EXP 	window1: recordFrameIntervals = False
+46.9912 	EXP 	window1: recordFrameIntervals = False
+47.0065 	EXP 	feedback_score: autoDraw = False
+47.0066 	EXP 	window1: recordFrameIntervals = False
+47.8508 	EXP 	window1: recordFrameIntervals = False
+47.8508 	WARNING 	We overshot the intended duration of ITI_isi by 0.3596s. The intervening code took too long to execute.
+47.8514 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+47.8517 	EXP 	New trial (rep=0, index=0): None
+47.8582 	EXP 	fixed_fixation: autoDraw = True
+50.4320 	DATA 	Keypress: space
+50.6164 	DATA 	Keypress: space
+50.7834 	DATA 	Keypress: space
+50.9837 	DATA 	Keypress: space
+51.0000 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+51.0008 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+51.0012 	EXP 	New trial (rep=0, index=0): None
+51.0316 	EXP 	fixed_fixation: autoDraw = False
+51.0316 	EXP 	feedback_score: text = 'Your trial score is 0.6. \nYour total score is 2.3'
+51.0316 	EXP 	feedback_score: autoDraw = True
+52.0016 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+52.7632 	EXP 	New trial (rep=4, index=0): None
+52.7633 	EXP 	window1: recordFrameIntervals = False
+52.7633 	EXP 	window1: recordFrameIntervals = False
+52.7687 	EXP 	feedback_score: autoDraw = False
+52.7688 	EXP 	window1: recordFrameIntervals = False
+53.7283 	EXP 	window1: recordFrameIntervals = False
+53.7283 	WARNING 	We overshot the intended duration of ITI_isi by 0.4649s. The intervening code took too long to execute.
+53.7289 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+53.7292 	EXP 	New trial (rep=0, index=0): None
+53.7374 	EXP 	fixed_fixation: autoDraw = True
+54.8086 	DATA 	Keypress: space
+55.0257 	DATA 	Keypress: space
+55.2430 	DATA 	Keypress: space
+55.4592 	DATA 	Keypress: space
+55.6610 	DATA 	Keypress: space
+56.3621 	DATA 	Keypress: space
+56.5464 	DATA 	Keypress: space
+56.7149 	DATA 	Keypress: space
+57.7307 	DATA 	Keypress: space
+57.7473 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+57.7476 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+57.7479 	EXP 	New trial (rep=0, index=0): None
+57.7793 	EXP 	fixed_fixation: autoDraw = False
+57.7793 	EXP 	feedback_score: text = 'Your trial score is 0.2. \nYour total score is 2.5'
+57.7793 	EXP 	feedback_score: autoDraw = True
+57.9153 	DATA 	Keypress: space
+58.7494 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+59.5169 	EXP 	New trial (rep=5, index=0): None
+59.5170 	EXP 	window1: recordFrameIntervals = False
+59.5170 	EXP 	window1: recordFrameIntervals = False
+59.5331 	EXP 	feedback_score: autoDraw = False
+59.5332 	EXP 	window1: recordFrameIntervals = False
+60.0230 	EXP 	window1: recordFrameIntervals = False
+60.0230 	WARNING 	We overshot the intended duration of ITI_isi by 0.0060s. The intervening code took too long to execute.
+60.0239 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+60.0243 	EXP 	New trial (rep=0, index=0): None
+60.0341 	EXP 	fixed_fixation: autoDraw = True
+62.8758 	DATA 	Keypress: space
+63.0595 	DATA 	Keypress: space
+63.0761 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+63.0767 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+63.0772 	EXP 	New trial (rep=0, index=0): None
+63.1074 	EXP 	fixed_fixation: autoDraw = False
+63.1074 	EXP 	feedback_score: text = 'Your trial score is 0.8. \nYour total score is 3.3'
+63.1074 	EXP 	feedback_score: autoDraw = True
+63.2100 	DATA 	Keypress: space
+64.0769 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+64.8504 	EXP 	New trial (rep=6, index=0): None
+64.8505 	EXP 	window1: recordFrameIntervals = False
+64.8505 	EXP 	window1: recordFrameIntervals = False
+64.8611 	EXP 	feedback_score: autoDraw = False
+64.8612 	EXP 	window1: recordFrameIntervals = False
+66.0373 	EXP 	window1: recordFrameIntervals = False
+66.0373 	WARNING 	We overshot the intended duration of ITI_isi by 0.6868s. The intervening code took too long to execute.
+66.0379 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+66.0382 	EXP 	New trial (rep=0, index=0): None
+66.0470 	EXP 	fixed_fixation: autoDraw = True
+67.4851 	DATA 	Keypress: space
+67.6854 	DATA 	Keypress: space
+67.8535 	DATA 	Keypress: space
+68.0366 	DATA 	Keypress: space
+69.7397 	DATA 	Keypress: space
+69.7562 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+69.7565 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+69.7568 	EXP 	New trial (rep=0, index=0): None
+69.7882 	EXP 	fixed_fixation: autoDraw = False
+69.7882 	EXP 	feedback_score: text = 'Your trial score is 0.5. \nYour total score is 3.8'
+69.7882 	EXP 	feedback_score: autoDraw = True
+69.9411 	DATA 	Keypress: space
+70.7582 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+71.5469 	EXP 	New trial (rep=7, index=0): None
+71.5470 	EXP 	window1: recordFrameIntervals = False
+71.5470 	EXP 	window1: recordFrameIntervals = False
+71.5587 	EXP 	feedback_score: autoDraw = False
+71.5595 	EXP 	window1: recordFrameIntervals = False
+72.9786 	EXP 	window1: recordFrameIntervals = False
+72.9786 	WARNING 	We overshot the intended duration of ITI_isi by 0.9315s. The intervening code took too long to execute.
+72.9792 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+72.9795 	EXP 	New trial (rep=0, index=0): None
+72.9951 	EXP 	fixed_fixation: autoDraw = True
+75.0020 	DATA 	Keypress: space
+75.1705 	DATA 	Keypress: space
+75.3379 	DATA 	Keypress: space
+75.5361 	DATA 	Keypress: space
+75.7023 	DATA 	Keypress: space
+76.2710 	DATA 	Keypress: space
+76.2875 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+76.2881 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+76.2885 	EXP 	New trial (rep=0, index=0): None
+76.3188 	EXP 	fixed_fixation: autoDraw = False
+76.3188 	EXP 	feedback_score: text = 'Your trial score is 0.4. \nYour total score is 4.2'
+76.3188 	EXP 	feedback_score: autoDraw = True
+76.4383 	DATA 	Keypress: space
+77.2888 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+78.0534 	EXP 	New trial (rep=8, index=0): None
+78.0535 	EXP 	window1: recordFrameIntervals = False
+78.0535 	EXP 	window1: recordFrameIntervals = False
+78.0725 	EXP 	feedback_score: autoDraw = False
+78.0726 	EXP 	window1: recordFrameIntervals = False
+78.5822 	EXP 	window1: recordFrameIntervals = False
+78.5822 	WARNING 	We overshot the intended duration of ITI_isi by 0.0287s. The intervening code took too long to execute.
+78.5828 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+78.5831 	EXP 	New trial (rep=0, index=0): None
+78.5904 	EXP 	fixed_fixation: autoDraw = True
+80.9478 	DATA 	Keypress: space
+81.1306 	DATA 	Keypress: space
+81.2977 	DATA 	Keypress: space
+81.4487 	DATA 	Keypress: space
+81.6157 	DATA 	Keypress: space
+81.6334 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+81.6339 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+81.6344 	EXP 	New trial (rep=0, index=0): None
+81.6636 	EXP 	fixed_fixation: autoDraw = False
+81.6636 	EXP 	feedback_score: text = 'Your trial score is 0.5. \nYour total score is 4.7'
+81.6636 	EXP 	feedback_score: autoDraw = True
+81.7828 	DATA 	Keypress: space
+82.6339 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+83.3944 	EXP 	New trial (rep=9, index=0): None
+83.3945 	EXP 	window1: recordFrameIntervals = False
+83.3946 	EXP 	window1: recordFrameIntervals = False
+83.4007 	EXP 	feedback_score: autoDraw = False
+83.4007 	EXP 	feedback_score: autoDraw = False
+83.4008 	EXP 	window1: recordFrameIntervals = False
+84.3278 	EXP 	window1: recordFrameIntervals = False
+84.3279 	WARNING 	We overshot the intended duration of ITI_isi by 0.4332s. The intervening code took too long to execute.
+84.3286 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+84.3289 	EXP 	New trial (rep=0, index=0): None
+84.3359 	EXP 	fixed_fixation: autoDraw = True
+86.5767 	DATA 	Keypress: space
+86.7600 	DATA 	Keypress: space
+86.9610 	DATA 	Keypress: space
+87.1444 	DATA 	Keypress: space
+87.3128 	DATA 	Keypress: space
+87.4974 	DATA 	Keypress: space
+87.5275 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+87.5278 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+87.5284 	EXP 	New trial (rep=0, index=0): None
+87.5595 	EXP 	fixed_fixation: autoDraw = False
+87.5595 	EXP 	feedback_score: text = 'Your trial score is 0.4. \nYour total score is 5.1'
+87.5595 	EXP 	feedback_score: autoDraw = True
+88.5294 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+89.3772 	EXP 	New trial (rep=10, index=0): None
+89.3773 	EXP 	window1: recordFrameIntervals = False
+89.3773 	EXP 	window1: recordFrameIntervals = False
+89.3966 	EXP 	feedback_score: autoDraw = False
+89.3967 	EXP 	window1: recordFrameIntervals = False
+90.7191 	EXP 	window1: recordFrameIntervals = False
+90.7191 	WARNING 	We overshot the intended duration of ITI_isi by 0.8417s. The intervening code took too long to execute.
+90.7197 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+90.7200 	EXP 	New trial (rep=0, index=0): None
+90.7329 	EXP 	fixed_fixation: autoDraw = True
+93.2739 	DATA 	Keypress: space
+93.4908 	DATA 	Keypress: space
+93.6746 	DATA 	Keypress: space
+93.8919 	DATA 	Keypress: space
+93.9084 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+93.9090 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+93.9095 	EXP 	New trial (rep=0, index=0): None
+93.9397 	EXP 	fixed_fixation: autoDraw = False
+93.9397 	EXP 	feedback_score: text = 'Your trial score is 0.7. \nYour total score is 5.8'
+93.9397 	EXP 	feedback_score: autoDraw = True
+94.0927 	DATA 	Keypress: space
+94.2761 	DATA 	Keypress: space
+94.9097 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+95.6780 	EXP 	New trial (rep=11, index=0): None
+95.6781 	EXP 	window1: recordFrameIntervals = False
+95.6781 	EXP 	window1: recordFrameIntervals = False
+95.6934 	EXP 	feedback_score: autoDraw = False
+95.6935 	EXP 	window1: recordFrameIntervals = False
+96.6975 	EXP 	window1: recordFrameIntervals = False
+96.6975 	WARNING 	We overshot the intended duration of ITI_isi by 0.5194s. The intervening code took too long to execute.
+96.6981 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+96.6985 	EXP 	New trial (rep=0, index=0): None
+96.7123 	EXP 	fixed_fixation: autoDraw = True
+99.9548 	DATA 	Keypress: space
+99.9709 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+99.9713 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+99.9717 	EXP 	New trial (rep=0, index=0): None
+100.0026 	EXP 	fixed_fixation: autoDraw = False
+100.0026 	EXP 	feedback_score: text = 'Your trial score is 0.9. \nYour total score is 6.7'
+100.0026 	EXP 	feedback_score: autoDraw = True
+100.2221 	DATA 	Keypress: space
+100.9722 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+101.7499 	EXP 	New trial (rep=12, index=0): None
+101.7500 	EXP 	window1: recordFrameIntervals = False
+101.7500 	EXP 	window1: recordFrameIntervals = False
+101.7564 	EXP 	feedback_score: autoDraw = False
+101.7568 	EXP 	window1: recordFrameIntervals = False
+102.6298 	EXP 	window1: recordFrameIntervals = False
+102.6299 	WARNING 	We overshot the intended duration of ITI_isi by 0.3798s. The intervening code took too long to execute.
+102.6304 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+102.6308 	EXP 	New trial (rep=0, index=0): None
+102.6416 	EXP 	fixed_fixation: autoDraw = True
+105.7171 	DATA 	Keypress: space
+105.7335 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+105.7340 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+105.7346 	EXP 	New trial (rep=0, index=0): None
+105.7649 	EXP 	fixed_fixation: autoDraw = False
+105.7649 	EXP 	feedback_score: text = 'Your trial score is 0.9. \nYour total score is 7.6'
+105.7649 	EXP 	feedback_score: autoDraw = True
+105.8843 	DATA 	Keypress: space
+106.0847 	DATA 	Keypress: space
+106.2509 	DATA 	Keypress: space
+106.7346 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+107.4924 	EXP 	New trial (rep=13, index=0): None
+107.4925 	EXP 	window1: recordFrameIntervals = False
+107.4925 	EXP 	window1: recordFrameIntervals = False
+107.5019 	EXP 	feedback_score: autoDraw = False
+107.5020 	EXP 	window1: recordFrameIntervals = False
+108.4501 	EXP 	window1: recordFrameIntervals = False
+108.4501 	WARNING 	We overshot the intended duration of ITI_isi by 0.4576s. The intervening code took too long to execute.
+108.4507 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+108.4510 	EXP 	New trial (rep=0, index=0): None
+108.4707 	EXP 	fixed_fixation: autoDraw = True
+110.5273 	DATA 	Keypress: space
+110.7439 	DATA 	Keypress: space
+110.8945 	DATA 	Keypress: space
+111.0610 	DATA 	Keypress: space
+111.1957 	DATA 	Keypress: space
+111.4126 	DATA 	Keypress: space
+111.5788 	DATA 	Keypress: space
+111.5953 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+111.5956 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+111.5958 	EXP 	New trial (rep=0, index=0): None
+111.6274 	EXP 	fixed_fixation: autoDraw = False
+111.6274 	EXP 	feedback_score: text = 'Your trial score is 0.3. \nYour total score is 7.9'
+111.6274 	EXP 	feedback_score: autoDraw = True
+111.7800 	DATA 	Keypress: space
+112.5974 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+113.3624 	EXP 	New trial (rep=14, index=0): None
+113.3625 	EXP 	window1: recordFrameIntervals = False
+113.3625 	EXP 	window1: recordFrameIntervals = False
+113.3811 	EXP 	feedback_score: autoDraw = False
+113.3812 	EXP 	window1: recordFrameIntervals = False
+114.2928 	EXP 	window1: recordFrameIntervals = False
+114.2928 	WARNING 	We overshot the intended duration of ITI_isi by 0.4302s. The intervening code took too long to execute.
+114.2934 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+114.2937 	EXP 	New trial (rep=0, index=0): None
+114.2999 	EXP 	fixed_fixation: autoDraw = True
+117.3586 	DATA 	Keypress: space
+117.3758 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+117.3764 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+117.3769 	EXP 	New trial (rep=0, index=0): None
+117.4064 	EXP 	fixed_fixation: autoDraw = False
+117.4064 	EXP 	feedback_score: text = 'Your trial score is 0.9. \nYour total score is 8.8'
+117.4064 	EXP 	feedback_score: autoDraw = True
+117.5415 	DATA 	Keypress: space
+117.7093 	DATA 	Keypress: space
+117.8756 	DATA 	Keypress: space
+118.3764 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+119.1503 	EXP 	New trial (rep=15, index=0): None
+119.1504 	EXP 	window1: recordFrameIntervals = False
+119.1504 	EXP 	window1: recordFrameIntervals = False
+119.1601 	EXP 	feedback_score: autoDraw = False
+119.1601 	EXP 	feedback_score: autoDraw = False
+119.1602 	EXP 	window1: recordFrameIntervals = False
+120.3426 	EXP 	window1: recordFrameIntervals = False
+120.3427 	WARNING 	We overshot the intended duration of ITI_isi by 0.6922s. The intervening code took too long to execute.
+120.3432 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+120.3435 	EXP 	New trial (rep=0, index=0): None
+120.3627 	EXP 	fixed_fixation: autoDraw = True
+122.4023 	DATA 	Keypress: space
+122.5522 	DATA 	Keypress: space
+122.7196 	DATA 	Keypress: space
+122.8871 	DATA 	Keypress: space
+123.0533 	DATA 	Keypress: space
+123.2211 	DATA 	Keypress: space
+123.4049 	DATA 	Keypress: space
+123.4210 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+123.4214 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+123.4218 	EXP 	New trial (rep=0, index=0): None
+123.4526 	EXP 	fixed_fixation: autoDraw = False
+123.4526 	EXP 	feedback_score: text = 'Your trial score is 0.3. \nYour total score is 9.1'
+123.4526 	EXP 	feedback_score: autoDraw = True
+123.5719 	DATA 	Keypress: space
+123.7722 	DATA 	Keypress: space
+124.4227 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+125.2027 	EXP 	New trial (rep=16, index=0): None
+125.2028 	EXP 	window1: recordFrameIntervals = False
+125.2028 	EXP 	window1: recordFrameIntervals = False
+125.2230 	EXP 	feedback_score: autoDraw = False
+125.2231 	EXP 	window1: recordFrameIntervals = False
+126.5463 	EXP 	window1: recordFrameIntervals = False
+126.5463 	WARNING 	We overshot the intended duration of ITI_isi by 0.8435s. The intervening code took too long to execute.
+126.5469 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+126.5472 	EXP 	New trial (rep=0, index=0): None
+126.5592 	EXP 	fixed_fixation: autoDraw = True
+128.7492 	DATA 	Keypress: space
+128.9330 	DATA 	Keypress: space
+129.1005 	DATA 	Keypress: space
+129.2666 	DATA 	Keypress: space
+129.4345 	DATA 	Keypress: space
+129.6015 	DATA 	Keypress: space
+129.6176 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+129.6181 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+129.6186 	EXP 	New trial (rep=0, index=0): None
+129.6490 	EXP 	fixed_fixation: autoDraw = False
+129.6490 	EXP 	feedback_score: text = 'Your trial score is 0.4. \nYour total score is 9.5'
+129.6490 	EXP 	feedback_score: autoDraw = True
+129.7687 	DATA 	Keypress: space
+129.9690 	DATA 	Keypress: space
+130.6188 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+131.4022 	EXP 	New trial (rep=17, index=0): None
+131.4023 	EXP 	window1: recordFrameIntervals = False
+131.4023 	EXP 	window1: recordFrameIntervals = False
+131.4196 	EXP 	feedback_score: autoDraw = False
+131.4200 	EXP 	window1: recordFrameIntervals = False
+132.0109 	EXP 	window1: recordFrameIntervals = False
+132.0109 	WARNING 	We overshot the intended duration of ITI_isi by 0.1085s. The intervening code took too long to execute.
+132.0117 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+132.0122 	EXP 	New trial (rep=0, index=0): None
+132.0208 	EXP 	fixed_fixation: autoDraw = True
+134.2113 	DATA 	Keypress: space
+134.3949 	DATA 	Keypress: space
+134.5614 	DATA 	Keypress: space
+134.7281 	DATA 	Keypress: space
+134.8963 	DATA 	Keypress: space
+135.0966 	DATA 	Keypress: space
+135.1129 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+135.1135 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+135.1140 	EXP 	New trial (rep=0, index=0): None
+135.1441 	EXP 	fixed_fixation: autoDraw = False
+135.1441 	EXP 	feedback_score: text = 'Your trial score is 0.4. \nYour total score is 9.9'
+135.1441 	EXP 	feedback_score: autoDraw = True
+135.2802 	DATA 	Keypress: space
+135.4466 	DATA 	Keypress: space
+136.1141 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+136.9359 	EXP 	New trial (rep=18, index=0): None
+136.9360 	EXP 	window1: recordFrameIntervals = False
+136.9360 	EXP 	window1: recordFrameIntervals = False
+136.9480 	EXP 	feedback_score: autoDraw = False
+136.9483 	EXP 	window1: recordFrameIntervals = False
+137.7541 	EXP 	window1: recordFrameIntervals = False
+137.7541 	WARNING 	We overshot the intended duration of ITI_isi by 0.3180s. The intervening code took too long to execute.
+137.7551 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+137.7556 	EXP 	New trial (rep=0, index=0): None
+137.7664 	EXP 	fixed_fixation: autoDraw = True
+139.1544 	DATA 	Keypress: space
+139.3722 	DATA 	Keypress: space
+139.5389 	DATA 	Keypress: space
+139.7391 	DATA 	Keypress: space
+139.9060 	DATA 	Keypress: space
+140.0736 	DATA 	Keypress: space
+140.2572 	DATA 	Keypress: space
+140.4580 	DATA 	Keypress: space
+140.6249 	DATA 	Keypress: space
+140.8085 	DATA 	Keypress: space
+140.8245 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+140.8250 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+140.8254 	EXP 	New trial (rep=0, index=0): None
+140.8563 	EXP 	fixed_fixation: autoDraw = False
+140.8563 	EXP 	feedback_score: text = 'Your trial score is 1.11022302463e-16. \nYour total score is 9.9'
+140.8563 	EXP 	feedback_score: autoDraw = True
+140.9749 	DATA 	Keypress: space
+141.8262 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+142.5906 	EXP 	New trial (rep=19, index=0): None
+142.5907 	EXP 	window1: recordFrameIntervals = False
+142.5907 	EXP 	window1: recordFrameIntervals = False
+142.6100 	EXP 	feedback_score: autoDraw = False
+142.6101 	EXP 	window1: recordFrameIntervals = False
+143.5861 	EXP 	window1: recordFrameIntervals = False
+143.5861 	WARNING 	We overshot the intended duration of ITI_isi by 0.4954s. The intervening code took too long to execute.
+143.5870 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+143.5875 	EXP 	New trial (rep=0, index=0): None
+143.5955 	EXP 	fixed_fixation: autoDraw = True
+145.4350 	DATA 	Keypress: space
+145.6679 	DATA 	Keypress: space
+145.8356 	DATA 	Keypress: space
+146.0363 	DATA 	Keypress: space
+146.2198 	DATA 	Keypress: space
+146.4372 	DATA 	Keypress: space
+146.6548 	DATA 	Keypress: space
+146.6702 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+146.6706 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+146.6709 	EXP 	New trial (rep=0, index=0): None
+146.7021 	EXP 	fixed_fixation: autoDraw = False
+146.7021 	EXP 	feedback_score: text = 'Your trial score is 0.3. \nYour total score is 10.2'
+146.7021 	EXP 	feedback_score: autoDraw = True
+146.8880 	DATA 	Keypress: space
+147.6717 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+148.4366 	EXP 	New trial (rep=20, index=0): None
+148.4367 	EXP 	window1: recordFrameIntervals = False
+148.4367 	EXP 	window1: recordFrameIntervals = False
+148.4558 	EXP 	feedback_score: autoDraw = False
+148.4559 	EXP 	window1: recordFrameIntervals = False
+149.3029 	EXP 	window1: recordFrameIntervals = False
+149.3029 	WARNING 	We overshot the intended duration of ITI_isi by 0.3661s. The intervening code took too long to execute.
+149.3035 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+149.3038 	EXP 	New trial (rep=0, index=0): None
+149.3243 	EXP 	fixed_fixation: autoDraw = True
+151.8487 	DATA 	Keypress: space
+152.0325 	DATA 	Keypress: space
+152.2496 	DATA 	Keypress: space
+152.4500 	DATA 	Keypress: space
+152.4664 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+152.4669 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+152.4674 	EXP 	New trial (rep=0, index=0): None
+152.4978 	EXP 	fixed_fixation: autoDraw = False
+152.4978 	EXP 	feedback_score: text = 'Your trial score is 0.6. \nYour total score is 10.8'
+152.4978 	EXP 	feedback_score: autoDraw = True
+152.6339 	DATA 	Keypress: space
+153.4677 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+154.2315 	EXP 	New trial (rep=21, index=0): None
+154.2316 	EXP 	window1: recordFrameIntervals = False
+154.2316 	EXP 	window1: recordFrameIntervals = False
+154.2515 	EXP 	feedback_score: autoDraw = False
+154.2516 	EXP 	window1: recordFrameIntervals = False
+154.9617 	EXP 	window1: recordFrameIntervals = False
+154.9617 	WARNING 	We overshot the intended duration of ITI_isi by 0.2301s. The intervening code took too long to execute.
+154.9623 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+154.9626 	EXP 	New trial (rep=0, index=0): None
+154.9697 	EXP 	fixed_fixation: autoDraw = True
+157.7778 	DATA 	Keypress: space
+158.1957 	DATA 	Keypress: space
+158.2139 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+158.2145 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+158.2149 	EXP 	New trial (rep=0, index=0): None
+158.2433 	EXP 	fixed_fixation: autoDraw = False
+158.2433 	EXP 	feedback_score: text = 'Your trial score is 0.8. \nYour total score is 11.6'
+158.2433 	EXP 	feedback_score: autoDraw = True
+158.3794 	DATA 	Keypress: space
+159.2129 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+159.9736 	EXP 	New trial (rep=22, index=0): None
+159.9737 	EXP 	window1: recordFrameIntervals = False
+159.9737 	EXP 	window1: recordFrameIntervals = False
+159.9803 	EXP 	feedback_score: autoDraw = False
+159.9804 	EXP 	window1: recordFrameIntervals = False
+160.5212 	EXP 	window1: recordFrameIntervals = False
+160.5212 	WARNING 	We overshot the intended duration of ITI_isi by 0.0474s. The intervening code took too long to execute.
+160.5218 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+160.5221 	EXP 	New trial (rep=0, index=0): None
+160.5316 	EXP 	fixed_fixation: autoDraw = True
+163.1220 	DATA 	Keypress: space
+163.3060 	DATA 	Keypress: space
+163.4736 	DATA 	Keypress: space
+163.6406 	DATA 	Keypress: space
+163.6733 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+163.6737 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+163.6741 	EXP 	New trial (rep=0, index=0): None
+163.7050 	EXP 	fixed_fixation: autoDraw = False
+163.7050 	EXP 	feedback_score: text = 'Your trial score is 0.6. \nYour total score is 12.2'
+163.7050 	EXP 	feedback_score: autoDraw = True
+163.8578 	DATA 	Keypress: space
+164.6748 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+165.4392 	EXP 	New trial (rep=23, index=0): None
+165.4393 	EXP 	window1: recordFrameIntervals = False
+165.4393 	EXP 	window1: recordFrameIntervals = False
+165.4586 	EXP 	feedback_score: autoDraw = False
+165.4588 	EXP 	window1: recordFrameIntervals = False
+166.4616 	EXP 	window1: recordFrameIntervals = False
+166.4616 	WARNING 	We overshot the intended duration of ITI_isi by 0.5222s. The intervening code took too long to execute.
+166.4622 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+166.4625 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+166.4628 	EXP 	New trial (rep=0, index=0): None
+166.4775 	EXP 	peak_fixation: autoDraw = True
+169.0352 	DATA 	Keypress: space
+169.2016 	DATA 	Keypress: space
+169.3858 	DATA 	Keypress: space
+169.5527 	DATA 	Keypress: space
+169.7706 	DATA 	Keypress: space
+169.9699 	DATA 	Keypress: space
+170.6884 	DATA 	Keypress: space
+171.1901 	DATA 	Keypress: space
+171.3574 	DATA 	Keypress: space
+171.8071 	DATA 	Keypress: space
+171.9743 	DATA 	Keypress: space
+172.1253 	DATA 	Keypress: space
+172.3427 	DATA 	Keypress: space
+175.4653 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+175.4658 	EXP 	New trial (rep=0, index=0): None
+175.4967 	EXP 	peak_fixation: autoDraw = False
+175.4967 	EXP 	peak_fixation: autoDraw = False
+175.4967 	EXP 	feedback_score: text = 'Your trial score is -1.4. \nYour total score is 10.8'
+175.4967 	EXP 	feedback_score: autoDraw = True
+176.4671 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+177.2339 	EXP 	New trial (rep=24, index=0): None
+177.2340 	EXP 	window1: recordFrameIntervals = False
+177.2340 	EXP 	window1: recordFrameIntervals = False
+177.2506 	EXP 	feedback_score: autoDraw = False
+177.2507 	EXP 	window1: recordFrameIntervals = False
+178.5402 	EXP 	window1: recordFrameIntervals = False
+178.5403 	WARNING 	We overshot the intended duration of ITI_isi by 0.8062s. The intervening code took too long to execute.
+178.5408 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+178.5412 	EXP 	New trial (rep=0, index=0): None
+178.5532 	EXP 	fixed_fixation: autoDraw = True
+180.4928 	DATA 	Keypress: space
+180.6927 	DATA 	Keypress: space
+180.8271 	DATA 	Keypress: space
+180.9938 	DATA 	Keypress: space
+181.1631 	DATA 	Keypress: space
+181.3617 	DATA 	Keypress: space
+181.5449 	DATA 	Keypress: space
+181.5609 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+181.5612 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+181.5614 	EXP 	New trial (rep=0, index=0): None
+181.5930 	EXP 	fixed_fixation: autoDraw = False
+181.5930 	EXP 	feedback_score: text = 'Your trial score is 0.4. \nYour total score is 11.2'
+181.5930 	EXP 	feedback_score: autoDraw = True
+182.5628 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+183.3295 	EXP 	New trial (rep=25, index=0): None
+183.3296 	EXP 	window1: recordFrameIntervals = False
+183.3296 	EXP 	window1: recordFrameIntervals = False
+183.3468 	EXP 	feedback_score: autoDraw = False
+183.3469 	EXP 	window1: recordFrameIntervals = False
+183.9725 	EXP 	window1: recordFrameIntervals = False
+183.9726 	WARNING 	We overshot the intended duration of ITI_isi by 0.1429s. The intervening code took too long to execute.
+183.9731 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+183.9735 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+183.9738 	EXP 	New trial (rep=0, index=0): None
+183.9816 	EXP 	peak_fixation: autoDraw = True
+188.4431 	DATA 	Keypress: space
+188.6104 	DATA 	Keypress: space
+188.7599 	DATA 	Keypress: space
+188.9278 	DATA 	Keypress: space
+189.0607 	DATA 	Keypress: space
+189.2302 	DATA 	Keypress: space
+189.3790 	DATA 	Keypress: space
+189.7457 	DATA 	Keypress: space
+189.8794 	DATA 	Keypress: space
+190.0968 	DATA 	Keypress: space
+190.3141 	DATA 	Keypress: space
+190.6481 	DATA 	Keypress: space
+192.9689 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+192.9692 	EXP 	New trial (rep=0, index=0): None
+193.0008 	EXP 	peak_fixation: autoDraw = False
+193.0008 	EXP 	peak_fixation: autoDraw = False
+193.0008 	EXP 	feedback_score: text = 'Your trial score is -1.2. \nYour total score is 10.0'
+193.0008 	EXP 	feedback_score: autoDraw = True
+193.9712 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+194.7439 	EXP 	New trial (rep=26, index=0): None
+194.7441 	EXP 	window1: recordFrameIntervals = False
+194.7441 	EXP 	window1: recordFrameIntervals = False
+194.7545 	EXP 	feedback_score: autoDraw = False
+194.7546 	EXP 	window1: recordFrameIntervals = False
+195.7806 	EXP 	window1: recordFrameIntervals = False
+195.7806 	WARNING 	We overshot the intended duration of ITI_isi by 0.5365s. The intervening code took too long to execute.
+195.7812 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+195.7815 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+195.7819 	EXP 	New trial (rep=0, index=0): None
+195.7900 	EXP 	peak_fixation: autoDraw = True
+198.1467 	DATA 	Keypress: space
+198.2807 	DATA 	Keypress: space
+198.4474 	DATA 	Keypress: space
+198.6146 	DATA 	Keypress: space
+198.7649 	DATA 	Keypress: space
+198.9488 	DATA 	Keypress: space
+199.3333 	DATA 	Keypress: space
+199.4999 	DATA 	Keypress: space
+199.6512 	DATA 	Keypress: space
+199.8343 	DATA 	Keypress: space
+200.8387 	DATA 	Keypress: space
+200.9869 	DATA 	Keypress: space
+203.1243 	DATA 	Keypress: space
+203.3422 	DATA 	Keypress: space
+204.7782 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+204.7787 	EXP 	New trial (rep=0, index=0): None
+204.8092 	EXP 	peak_fixation: autoDraw = False
+204.8092 	EXP 	peak_fixation: autoDraw = False
+204.8092 	EXP 	feedback_score: text = 'Your trial score is -1.4. \nYour total score is 8.6'
+204.8092 	EXP 	feedback_score: autoDraw = True
+205.7795 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+206.5462 	EXP 	New trial (rep=27, index=0): None
+206.5463 	EXP 	window1: recordFrameIntervals = False
+206.5464 	EXP 	window1: recordFrameIntervals = False
+206.5629 	EXP 	feedback_score: autoDraw = False
+206.5630 	EXP 	window1: recordFrameIntervals = False
+207.1807 	EXP 	window1: recordFrameIntervals = False
+207.1807 	WARNING 	We overshot the intended duration of ITI_isi by 0.1343s. The intervening code took too long to execute.
+207.1813 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+207.1816 	EXP 	New trial (rep=0, index=0): None
+207.1977 	EXP 	fixed_fixation: autoDraw = True
+210.7067 	DATA 	Keypress: space
+210.7232 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+210.7235 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+210.7237 	EXP 	New trial (rep=0, index=0): None
+210.7552 	EXP 	fixed_fixation: autoDraw = False
+210.7552 	EXP 	feedback_score: text = 'Your trial score is 1. \nYour total score is 9.6'
+210.7552 	EXP 	feedback_score: autoDraw = True
+210.8746 	DATA 	Keypress: space
+211.7248 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+212.4944 	EXP 	New trial (rep=28, index=0): None
+212.4945 	EXP 	window1: recordFrameIntervals = False
+212.4945 	EXP 	window1: recordFrameIntervals = False
+212.5090 	EXP 	feedback_score: autoDraw = False
+212.5091 	EXP 	window1: recordFrameIntervals = False
+213.0682 	EXP 	window1: recordFrameIntervals = False
+213.0683 	WARNING 	We overshot the intended duration of ITI_isi by 0.0737s. The intervening code took too long to execute.
+213.0688 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+213.0691 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+213.0694 	EXP 	New trial (rep=0, index=0): None
+213.0768 	EXP 	peak_fixation: autoDraw = True
+217.0040 	DATA 	Keypress: space
+217.2211 	DATA 	Keypress: space
+217.3885 	DATA 	Keypress: space
+217.5551 	DATA 	Keypress: space
+217.7386 	DATA 	Keypress: space
+217.9058 	DATA 	Keypress: space
+218.0732 	DATA 	Keypress: space
+218.2393 	DATA 	Keypress: space
+218.4082 	DATA 	Keypress: space
+218.5742 	DATA 	Keypress: space
+218.7248 	DATA 	Keypress: space
+218.8918 	DATA 	Keypress: space
+219.0586 	DATA 	Keypress: space
+219.2252 	DATA 	Keypress: space
+219.3756 	DATA 	Keypress: space
+222.0642 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+222.0645 	EXP 	New trial (rep=0, index=0): None
+222.0959 	EXP 	peak_fixation: autoDraw = False
+222.0959 	EXP 	peak_fixation: autoDraw = False
+222.0959 	EXP 	feedback_score: text = 'Your trial score is -1.6. \nYour total score is 8.0'
+222.0959 	EXP 	feedback_score: autoDraw = True
+223.0665 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+223.8260 	EXP 	New trial (rep=29, index=0): None
+223.8261 	EXP 	window1: recordFrameIntervals = False
+223.8261 	EXP 	window1: recordFrameIntervals = False
+223.8330 	EXP 	feedback_score: autoDraw = False
+223.8331 	EXP 	window1: recordFrameIntervals = False
+224.3968 	EXP 	window1: recordFrameIntervals = False
+224.3968 	WARNING 	We overshot the intended duration of ITI_isi by 0.0707s. The intervening code took too long to execute.
+224.3974 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+224.3977 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+224.3980 	EXP 	New trial (rep=0, index=0): None
+224.4176 	EXP 	peak_fixation: autoDraw = True
+227.0584 	DATA 	Keypress: space
+227.2258 	DATA 	Keypress: space
+227.4090 	DATA 	Keypress: space
+227.5597 	DATA 	Keypress: space
+227.7265 	DATA 	Keypress: space
+227.8944 	DATA 	Keypress: space
+228.0615 	DATA 	Keypress: space
+228.2282 	DATA 	Keypress: space
+228.3954 	DATA 	Keypress: space
+228.5623 	DATA 	Keypress: space
+228.7288 	DATA 	Keypress: space
+228.8958 	DATA 	Keypress: space
+229.5468 	DATA 	Keypress: space
+229.7145 	DATA 	Keypress: space
+229.8812 	DATA 	Keypress: space
+230.0486 	DATA 	Keypress: space
+233.3893 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+233.3899 	EXP 	New trial (rep=0, index=0): None
+233.4203 	EXP 	peak_fixation: autoDraw = False
+233.4203 	EXP 	peak_fixation: autoDraw = False
+233.4203 	EXP 	feedback_score: text = 'Your trial score is -1.6. \nYour total score is 6.4'
+233.4203 	EXP 	feedback_score: autoDraw = True
+234.3907 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+235.1669 	EXP 	New trial (rep=30, index=0): None
+235.1670 	EXP 	window1: recordFrameIntervals = False
+235.1670 	EXP 	window1: recordFrameIntervals = False
+235.1739 	EXP 	feedback_score: autoDraw = False
+235.1740 	EXP 	window1: recordFrameIntervals = False
+236.3708 	EXP 	window1: recordFrameIntervals = False
+236.3708 	WARNING 	We overshot the intended duration of ITI_isi by 0.7037s. The intervening code took too long to execute.
+236.3714 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+236.3717 	EXP 	New trial (rep=0, index=0): None
+236.3764 	EXP 	fixed_fixation: autoDraw = True
+238.7839 	DATA 	Keypress: space
+238.9672 	DATA 	Keypress: space
+239.1348 	DATA 	Keypress: space
+239.3029 	DATA 	Keypress: space
+239.4855 	DATA 	Keypress: space
+239.5013 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+239.5017 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+239.5020 	EXP 	New trial (rep=0, index=0): None
+239.5333 	EXP 	fixed_fixation: autoDraw = False
+239.5333 	EXP 	feedback_score: text = 'Your trial score is 0.6. \nYour total score is 7.0'
+239.5333 	EXP 	feedback_score: autoDraw = True
+240.5030 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+241.2706 	EXP 	New trial (rep=31, index=0): None
+241.2708 	EXP 	window1: recordFrameIntervals = False
+241.2708 	EXP 	window1: recordFrameIntervals = False
+241.2869 	EXP 	feedback_score: autoDraw = False
+241.2873 	EXP 	window1: recordFrameIntervals = False
+242.0870 	EXP 	window1: recordFrameIntervals = False
+242.0871 	WARNING 	We overshot the intended duration of ITI_isi by 0.3162s. The intervening code took too long to execute.
+242.0876 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+242.0880 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+242.0883 	EXP 	New trial (rep=0, index=0): None
+242.1053 	EXP 	peak_fixation: autoDraw = True
+244.5299 	DATA 	Keypress: space
+244.7135 	DATA 	Keypress: space
+244.8796 	DATA 	Keypress: space
+245.0481 	DATA 	Keypress: space
+245.2147 	DATA 	Keypress: space
+245.5820 	DATA 	Keypress: space
+245.7487 	DATA 	Keypress: space
+245.9149 	DATA 	Keypress: space
+246.0830 	DATA 	Keypress: space
+246.2829 	DATA 	Keypress: space
+246.4501 	DATA 	Keypress: space
+246.6165 	DATA 	Keypress: space
+246.7845 	DATA 	Keypress: space
+246.9515 	DATA 	Keypress: space
+251.0930 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+251.0936 	EXP 	New trial (rep=0, index=0): None
+251.1244 	EXP 	peak_fixation: autoDraw = False
+251.1244 	EXP 	peak_fixation: autoDraw = False
+251.1244 	EXP 	feedback_score: text = 'Your trial score is -1.4. \nYour total score is 5.6'
+251.1244 	EXP 	feedback_score: autoDraw = True
+252.0944 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+252.8519 	EXP 	New trial (rep=32, index=0): None
+252.8520 	EXP 	window1: recordFrameIntervals = False
+252.8520 	EXP 	window1: recordFrameIntervals = False
+252.8615 	EXP 	feedback_score: autoDraw = False
+252.8617 	EXP 	window1: recordFrameIntervals = False
+254.0765 	EXP 	window1: recordFrameIntervals = False
+254.0765 	WARNING 	We overshot the intended duration of ITI_isi by 0.7244s. The intervening code took too long to execute.
+254.0770 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+254.0773 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+254.0776 	EXP 	New trial (rep=0, index=0): None
+254.0975 	EXP 	peak_fixation: autoDraw = True
+255.7533 	DATA 	Keypress: space
+255.9389 	DATA 	Keypress: space
+256.1204 	DATA 	Keypress: space
+256.3217 	DATA 	Keypress: space
+256.7896 	DATA 	Keypress: space
+256.9225 	DATA 	Keypress: space
+257.0725 	DATA 	Keypress: space
+257.2898 	DATA 	Keypress: space
+257.4572 	DATA 	Keypress: space
+257.6240 	DATA 	Keypress: space
+257.9745 	DATA 	Keypress: space
+258.1243 	DATA 	Keypress: space
+258.2922 	DATA 	Keypress: space
+258.5596 	DATA 	Keypress: space
+263.0691 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+263.0696 	EXP 	New trial (rep=0, index=0): None
+263.1000 	EXP 	peak_fixation: autoDraw = False
+263.1000 	EXP 	peak_fixation: autoDraw = False
+263.1000 	EXP 	feedback_score: text = 'Your trial score is -1.4. \nYour total score is 4.2'
+263.1000 	EXP 	feedback_score: autoDraw = True
+264.0699 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+264.8412 	EXP 	New trial (rep=33, index=0): None
+264.8412 	EXP 	window1: recordFrameIntervals = False
+264.8413 	EXP 	window1: recordFrameIntervals = False
+264.8538 	EXP 	feedback_score: autoDraw = False
+264.8538 	EXP 	window1: recordFrameIntervals = False
+266.2426 	EXP 	window1: recordFrameIntervals = False
+266.2426 	WARNING 	We overshot the intended duration of ITI_isi by 0.9013s. The intervening code took too long to execute.
+266.2432 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+266.2435 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+266.2438 	EXP 	New trial (rep=0, index=0): None
+266.2568 	EXP 	peak_fixation: autoDraw = True
+268.4813 	DATA 	Keypress: space
+268.6806 	DATA 	Keypress: space
+268.8481 	DATA 	Keypress: space
+269.0142 	DATA 	Keypress: space
+269.1818 	DATA 	Keypress: space
+269.3668 	DATA 	Keypress: space
+269.7333 	DATA 	Keypress: space
+269.9004 	DATA 	Keypress: space
+270.0667 	DATA 	Keypress: space
+270.2335 	DATA 	Keypress: space
+270.4012 	DATA 	Keypress: space
+270.8514 	DATA 	Keypress: space
+271.0195 	DATA 	Keypress: space
+271.1856 	DATA 	Keypress: space
+271.3534 	DATA 	Keypress: space
+275.2444 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+275.2448 	EXP 	New trial (rep=0, index=0): None
+275.2762 	EXP 	peak_fixation: autoDraw = False
+275.2762 	EXP 	peak_fixation: autoDraw = False
+275.2762 	EXP 	feedback_score: text = 'Your trial score is -1.5. \nYour total score is 2.7'
+275.2762 	EXP 	feedback_score: autoDraw = True
+276.2458 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+277.0088 	EXP 	New trial (rep=34, index=0): None
+277.0089 	EXP 	window1: recordFrameIntervals = False
+277.0090 	EXP 	window1: recordFrameIntervals = False
+277.0132 	EXP 	feedback_score: autoDraw = False
+277.0133 	EXP 	window1: recordFrameIntervals = False
+277.9120 	EXP 	window1: recordFrameIntervals = False
+277.9121 	WARNING 	We overshot the intended duration of ITI_isi by 0.4031s. The intervening code took too long to execute.
+277.9126 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+277.9130 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+277.9132 	EXP 	New trial (rep=0, index=0): None
+277.9316 	EXP 	peak_fixation: autoDraw = True
+282.0767 	DATA 	Keypress: space
+282.2765 	DATA 	Keypress: space
+282.4123 	DATA 	Keypress: space
+282.6108 	DATA 	Keypress: space
+282.9448 	DATA 	Keypress: space
+283.1293 	DATA 	Keypress: space
+283.2970 	DATA 	Keypress: space
+283.7631 	DATA 	Keypress: space
+283.9469 	DATA 	Keypress: space
+284.1469 	DATA 	Keypress: space
+284.5315 	DATA 	Keypress: space
+284.6976 	DATA 	Keypress: space
+284.8656 	DATA 	Keypress: space
+286.9026 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+286.9030 	EXP 	New trial (rep=0, index=0): None
+286.9341 	EXP 	peak_fixation: autoDraw = False
+286.9341 	EXP 	peak_fixation: autoDraw = False
+286.9341 	EXP 	feedback_score: text = 'Your trial score is -1.3. \nYour total score is 1.4'
+286.9341 	EXP 	feedback_score: autoDraw = True
+287.9044 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+288.6666 	EXP 	New trial (rep=35, index=0): None
+288.6667 	EXP 	window1: recordFrameIntervals = False
+288.6667 	EXP 	window1: recordFrameIntervals = False
+288.6712 	EXP 	feedback_score: autoDraw = False
+288.6712 	EXP 	window1: recordFrameIntervals = False
+289.8059 	EXP 	window1: recordFrameIntervals = False
+289.8060 	WARNING 	We overshot the intended duration of ITI_isi by 0.6392s. The intervening code took too long to execute.
+289.8065 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+289.8069 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+289.8072 	EXP 	New trial (rep=0, index=0): None
+289.8236 	EXP 	peak_fixation: autoDraw = True
+293.2167 	DATA 	Keypress: space
+293.3995 	DATA 	Keypress: space
+293.6005 	DATA 	Keypress: space
+293.7847 	DATA 	Keypress: space
+295.2038 	DATA 	Keypress: space
+295.3879 	DATA 	Keypress: space
+295.5884 	DATA 	Keypress: space
+295.7554 	DATA 	Keypress: space
+298.8110 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+298.8113 	EXP 	New trial (rep=0, index=0): None
+298.8428 	EXP 	peak_fixation: autoDraw = False
+298.8428 	EXP 	peak_fixation: autoDraw = False
+298.8428 	EXP 	feedback_score: text = 'Your trial score is -0.8. \nYour total score is 0.6'
+298.8428 	EXP 	feedback_score: autoDraw = True
+299.8129 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+300.5709 	EXP 	New trial (rep=36, index=0): None
+300.5710 	EXP 	window1: recordFrameIntervals = False
+300.5710 	EXP 	window1: recordFrameIntervals = False
+300.5799 	EXP 	feedback_score: autoDraw = False
+300.5800 	EXP 	window1: recordFrameIntervals = False
+301.1910 	EXP 	window1: recordFrameIntervals = False
+301.1910 	WARNING 	We overshot the intended duration of ITI_isi by 0.1200s. The intervening code took too long to execute.
+301.1916 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+301.1919 	EXP 	New trial (rep=0, index=0): None
+301.1979 	EXP 	fixed_fixation: autoDraw = True
+304.1229 	DATA 	Keypress: space
+304.3234 	DATA 	Keypress: space
+304.3401 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+304.3407 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+304.3411 	EXP 	New trial (rep=0, index=0): None
+304.3713 	EXP 	fixed_fixation: autoDraw = False
+304.3713 	EXP 	feedback_score: text = 'Your trial score is 0.9. \nYour total score is 1.5'
+304.3713 	EXP 	feedback_score: autoDraw = True
+304.5069 	DATA 	Keypress: space
+305.3411 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+306.1180 	EXP 	New trial (rep=37, index=0): None
+306.1181 	EXP 	window1: recordFrameIntervals = False
+306.1181 	EXP 	window1: recordFrameIntervals = False
+306.1251 	EXP 	feedback_score: autoDraw = False
+306.1252 	EXP 	window1: recordFrameIntervals = False
+307.3792 	EXP 	window1: recordFrameIntervals = False
+307.3792 	WARNING 	We overshot the intended duration of ITI_isi by 0.7610s. The intervening code took too long to execute.
+307.3798 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+307.3801 	EXP 	New trial (rep=0, index=0): None
+307.3944 	EXP 	fixed_fixation: autoDraw = True
+307.4301 	DATA 	Keypress: escape
