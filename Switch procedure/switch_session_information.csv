@@ -1,2 +1,2 @@
 Session_duration,Break_duration,Task_duration,short_interval,long_interval,p_short,v_short,v_long,c_short,c_long
-1,1,10,2,3,0.5,1,1,0,0
+60,1,10,2,3,0.5,1,1,0,0
